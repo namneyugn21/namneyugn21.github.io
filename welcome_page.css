@@ -1,5 +1,5 @@
 html {
-  height: 100%;
+  height: auto;
   margin: 0;
   overflow: auto;
 }
@@ -21,6 +21,7 @@ main {
   margin-right: auto;
   margin-left: auto;
 }
+
 .profile-pic {
   border-radius: 50%;
   margin: 0 auto;

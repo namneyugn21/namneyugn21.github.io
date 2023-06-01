@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-image: url("background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 100px auto;
+}
+.profile-pic {
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.title {
+  color: white;
+}
+
+.bio {
+  text-align: center;
+  line-height: 1.5;
+  color:beige;
+  margin-top: -5px;
+  margin-bottom: 25px;
+}
+
+.button {
+  background-color: beige;
+  width: 200px; /* manipulate button width */
+  /* make the button centre */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 20px; /* add spaces between text and border */
+  margin-bottom: 20px; /* add spaces between the link */
+  border-radius: 8px; /* round up the edges */
+  color: black; /* change colour of the text */
+  text-decoration: none; /* get rid of the underlined link */
+  text-align: center; /* to centre the text */  
+}
+
+.button:hover {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}

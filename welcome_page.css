@@ -1,7 +1,7 @@
 html {
   height: 100%;
   margin: 0;
-  overflow: hidden;
+  overflow: auto;
 }
 
 body {
@@ -24,7 +24,6 @@ main {
 .profile-pic {
   border-radius: 50%;
   margin: 0 auto;
-  ;
 }
 
 .title {

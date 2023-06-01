@@ -16,7 +16,9 @@ main {
   display: flex;
   flex-direction: column;
   max-width: 400px;
-  margin: 100px auto;
+  padding: 120px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .profile-pic {
   border-radius: 50%;
@@ -24,7 +26,8 @@ main {
 }
 
 .title {
-  color: white;
+  color: rgb(224, 221, 210);
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .bio {
@@ -36,7 +39,7 @@ main {
 }
 
 .button {
-  background-color: beige;
+  background-color: rgb(143, 143, 119);
   width: 200px; /* manipulate button width */
   /* make the button centre */
   margin-left: auto;
@@ -44,13 +47,14 @@ main {
   padding: 16px 20px; /* add spaces between text and border */
   margin-bottom: 20px; /* add spaces between the link */
   border-radius: 8px; /* round up the edges */
-  color: black; /* change colour of the text */
+  color: beige; /* change colour of the text */
   text-decoration: none; /* get rid of the underlined link */
   text-align: center; /* to centre the text */  
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .button:hover {
   background: transparent;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid beige;
+  color: beige;
 }

@@ -4,11 +4,8 @@
   font-size: 60px;
 }
 
-html {
-}
-
 #header {
-  height: 100vh;
+  height: 70vh;
   display: flex;
   flex-direction: row;
 }
@@ -18,9 +15,9 @@ html {
   flex-direction: column;
   width: auto;
   padding-left: 15%;
-  padding-right: 5%;
-  padding-top: 180px;
-  color: #2C2E34;
+  padding-right: 10%;
+  padding-top: 11%;
+  color: rgba(42,66,84,0.8);
 }
 
 .greetings {
@@ -34,38 +31,40 @@ html {
 #introduction {
   font-family: 'Abhaya Libre';
   width: 450px;
-  color: #4f4f4f;
+  color: rgba(42,66,84,0.8);
 }
 
 #menu-container {
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding-top: 210px;
+  padding-top: 14%;
   padding-right: 15%;
   padding-left: 5%;
-  padding-bottom: 180px;
+  padding-bottom: 15%;
   align-items: flex-end;
 }
 
 .menu-options {
   text-align: right;
-  font-family: 'Aboreto';
-  font-size: 25px;
   display: inline-block;
-  margin-bottom: 30px;
-  color: #4f4f4f;
-  padding-right: 10px;
-  border-right: 1px solid rgba(44,46,52,0);
+  padding: 0px 10px;
+  margin-bottom: 35px;
+  color: rgba(50,78,101,0.8);
+  border-right: 2px solid rgba(42,66,84,0);
+  font-size: 35px;
+  font-weight: lighter;
+  font-family: 'Abril Fatface';
 }
 
 .menu-options:hover {
-  color: #2C2E34;
+  color: rgba(29,46,59,0.8);
   cursor: pointer;
-  border-right: 1px solid #2C2E34;
+  border-right: 2px solid rgba(42,66,84,0.8);
+  font-weight: 400;
 }
 
 #my-name {
-  border-bottom: 1px solid #2C2E34;
+  border-bottom: 1px solid rgba(42,66,84,0.8);
 }
 

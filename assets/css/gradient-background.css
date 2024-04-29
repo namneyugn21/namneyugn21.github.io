@@ -1,0 +1,76 @@
+.dynamic-gradient {
+  background: linear-gradient(160deg, #7c9195, #849c9c, #a1a38f, #9da39c);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
+}
+
+@keyframes AnimationName {
+  100% {
+    background-position: 40% 0%;
+  }
+  0% {
+    background-position: 40% 0%;
+  }
+  50% {
+    background-position: 60% 100%;
+  }
+}
+
+#menu-subcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#scroll-button-container {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+
+#scroll-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#scroll {
+  width: 40px;
+  height: 70px;
+  border: 2px solid rgba(42,66,84,0.8);
+  border-radius: 60px;
+  position: relative;
+}
+
+#scroll:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(42,66,84,0.8);
+  border-radius: 50%;
+  opacity: 1;
+  animation: wheel 2s infinite;
+  -webkit-animation: wheel 2s infinite;
+}
+
+@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 45px;
+  }
+}
+
+#logo-image {
+  position: fixed;
+  width: 65px;
+  height: 70px;
+  left: 30px;
+  top: 20px;
+  opacity: 75%;
+}
+

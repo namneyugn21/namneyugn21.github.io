@@ -1,26 +1,27 @@
 .dynamic-gradient {
-  background: linear-gradient(160deg, #7c9195, #849c9c, #a1a38f, #9da39c);
+  background: linear-gradient(123deg, #7c9195, #849c9c, #a1a38f, #9da39c);
   background-size: 800% 800%;
-  -webkit-animation: AnimationName 10s ease infinite;
-  -moz-animation: AnimationName 10s ease infinite;
-  animation: AnimationName 10s ease infinite;
+  -webkit-animation: AnimationName 8s ease infinite;
+  -moz-animation: AnimationName 8s ease infinite;
+  animation: AnimationName 8s ease infinite;
 }
 
 @keyframes AnimationName {
-  100% {
-    background-position: 40% 0%;
-  }
   0% {
-    background-position: 40% 0%;
+    background-position: 4% 0%;
   }
   50% {
-    background-position: 60% 100%;
+    background-position: 97% 100%;
+  }
+  100% {
+    background-position: 4% 0%;
   }
 }
 
 #menu-subcontainer {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
 }
 
 #scroll-button-container {
@@ -66,11 +67,32 @@
 }
 
 #logo-image {
-  position: fixed;
+  position: absolute;
   width: 65px;
   height: 70px;
   left: 30px;
   top: 20px;
   opacity: 75%;
+}
+
+#greetings-subcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-options::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: rgba(50,78,101,0.8);
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-options:hover::after {
+  transform: scaleX(1);
 }
 

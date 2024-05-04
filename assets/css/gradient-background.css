@@ -1,9 +1,9 @@
 .dynamic-gradient {
   background: linear-gradient(167deg, #a7a795, #bda880, #b6ac8c, #acab8c, #bca073, #939d9c);
   background-size: 1200% 1200%;
-  -webkit-animation: AnimationName 15s ease infinite;
-  -moz-animation: AnimationName 15s ease infinite;
-  animation: AnimationName 15s ease infinite;
+  -webkit-animation: AnimationName 25s ease infinite;
+  -moz-animation: AnimationName 25s ease infinite;
+  animation: AnimationName 25s ease infinite;
 }
 
 @keyframes AnimationName {
@@ -22,6 +22,7 @@
   height: 30vh;
   display: flex;
   justify-content: center;
+  background-image: linear-gradient(to bottom, transparent, transparent 65%, #ab9472 );
 }
 
 #scroll-button {
@@ -111,6 +112,7 @@ a {
   padding-right: 150px;
   padding-bottom: 100px;
   display: flex;
+  background-image: linear-gradient(to bottom, #ab9472, #ab9472 30%, transparent);
 }
 
 #about-subsection {
@@ -164,12 +166,12 @@ a {
   padding-left: 150px;
   padding-bottom: 100px;
   padding-right: 150px;
+  background-image: linear-gradient(to bottom, transparent, transparent 80%, #ab9472);
 }
 
 .project-subcontainer {
   padding-top: 50px;
   padding-bottom: 50px;
-  border-top: 2px solid rgba(42,66,84,0.8);
 }
 
 .project-number {
@@ -212,17 +214,61 @@ a {
 #realtorest-demo {
   height: auto;
   width: 50%;
-  border-radius: 15px;
+  border-radius: 25px;
 }
 
 #kirakou-demo {
   width: 50%;
   height: auto;
-  border-radius: 15px;
+  border-radius: 25px;
 }
 
 #kirakou-description {
   display: flex;
   /*flex-direction: column;*/
+}
+
+#footer {
+  height: 300px;
+  width: 100%;
+  background-color: #ab9472;
+}
+
+#kirakou {
+}
+
+.separation-line {
+  width: 100%;
+  border-bottom: 1px solid rgba(42,66,84,0.8);
+}
+
+.separation-line-container {
+  display: flex;
+  justify-content: center;
+}
+
+#footer-logo-container {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+#footer-name-container {
+  display: flex;
+  justify-content: center;
+  font-family: 'Abril Fatface';
+  font-size: 50px;
+  color: rgba(227,225,223,0.7);
+  padding: 5px 0px;
+}
+
+#icons-container {
+  font-size: 30px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 15px;
+  color: rgba(227,225,223,0.7);
 }
 

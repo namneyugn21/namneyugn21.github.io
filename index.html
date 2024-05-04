@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Personal Website</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abhaya+Libre&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abhaya+Libre:400,500,600,700,800&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amaranth&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap">
@@ -16,37 +16,47 @@
 </head>
 
 <body id="body" class="dynamic-gradient"><img id="logo-image" src="assets/img/logo.png">
-    <header id="header">
-        <section id="greetings-container" style="text-align: left;">
-            <section id="greetings-subcontainer"><span id="greetings" class="greetings" style="font-family: 'Abril Fatface', serif;text-align: left;width: auto;font-size: 70px;">Hello,</span><span id="my-name" class="greetings" style="padding-right: 0px;padding-top: 0px;margin-left: 0px;margin-top: -25px;font-family: 'Abril Fatface', serif;text-align: left;width: auto;font-size: 110px;">I'm Nam !</span>
-                <p id="introduction" style="margin-top: 20px;font-size: 20px;">I am a student at Simon Fraser University, <br>and I am majoring in Software System and minoring in Geographic Information Science. <br><br>I have a passion for website<strong> </strong>development and design, and my goal is to create a user-friendly and aesthetic websites that help users enjoy their experience online.</p>
+    <header id="header-container" style="background: url(&quot;assets/img/background.jpg&quot;);background-size: cover;">
+        <section id="header">
+            <section id="greetings-container" style="text-align: left;">
+                <section id="greetings-subcontainer"><span id="my-name" class="greetings">Nam Nguyen</span></section>
             </section>
+            <section id="menu-container"><a href="#about-section" class="menu-options">About</a><a class="menu-options" href="#realtorest">Projects</a><a class="menu-options">Photography</a><a class="menu-options">Contact</a><a class="menu-options">GitHub</a></section>
         </section>
-        <section id="menu-container">
-            <section id="menu-subcontainer">
-                <section>
-                    <p class="menu-options">About</p>
-                </section>
-                <section>
-                    <p class="menu-options">Projects</p>
-                </section>
-                <section>
-                    <p class="menu-options">Photography</p>
-                </section>
-                <section>
-                    <p class="menu-options">Contact</p>
-                </section>
-                <section>
-                    <p class="menu-options">GitHub</p>
-                </section>
-            </section>
+        <section id="scroll-button-container">
+            <section id="scroll-button"><a href="#about-section"><section id="scroll"></section></a></section>
         </section>
     </header>
-    <section id="scroll-button-container">
-        <section id="scroll-button">
-            <section id="scroll"></section>
+    <main>
+        <section id="about-section">
+            <section id="about-subsection"><span id="greetings" class="greetings">Hello !</span>
+                <p id="introduction" style="font-size: 19px;">I am a student at Simon Fraser University, <br>and I am majoring in Software System and minoring in Geographic Information Science. <br><br>I have a passion for website<strong> </strong>development and design, and my goal is to create a user-friendly and aesthetic websites that help users enjoy their experience online.<br><br>In my free time, I enjoy going out either with my friends or by myself to discover new places in Vancouver, and I enjoy taking aesthetic pictures.</p>
+            </section>
+            <section id="about-subsection">
+                <section id="profile-picture-container">
+                    <section id="profile-picture-subcontainer"><img id="profile-picture" src="assets/img/IMG_0776.jpg"></section>
+                </section>
+            </section>
         </section>
-    </section>
+        <section class="project-container">
+            <section id="realtorest" class="project-subcontainer">
+                <section class="title-container">
+                    <section class="numbering"><a href="https://cmpt276-realtorest.onrender.com/" target="_blank"><span class="project-number">1</span></a></section><a href="https://cmpt276-realtorest.onrender.com/" target="_blank"><span class="my-project">Realtorest</span></a>
+                </section>
+                <section class="description-container">
+                    <p class="description-paragraph"><strong>Realtorest</strong> is a website designed for realtors to showcase their properties and connect with potential clients. The website is focused on minimalistic design that can help users navigate the site easily. <strong>Realtorest</strong> also incorporates Google Maps API for locating property.&nbsp;<br><br><strong>Year: </strong>January, 2024<br><strong>Timeline: </strong>4 months<br><strong>Framework &amp; Software: </strong>Spring Boot and Thymeleaf<br><strong>Languages: </strong>Java, HTML, CSS, Javascript, and PostgreSQL<br><strong>Role: </strong>UX/UI Design, Visual + Interaction Design and Testing</p><video id="realtorest-demo" class="project-demo" style="background-color:#a7a795;" autoplay="" loop="" muted="" src="videos/realtorest.mp4"></video>
+                </section>
+            </section>
+            <section id="kirakou" class="project-subcontainer">
+                <section class="title-container">
+                    <section class="numbering"><a href="https://cmpt276-realtorest.onrender.com/" target="_blank"><span class="project-number">2</span></a></section><a href="https://cmpt276-realtorest.onrender.com/" target="_blank"><span class="my-project">Kirakou</span></a>
+                </section>
+                <section id="kirakou-description" class="description-container">
+                    <p class="description-paragraph"><strong>Kirakou</strong> is my first project to create a discord bot with limited functions such as performing arithmetic calculation, generating GIF and motivational quotes, and getting the a location's weather. Through this project, I learned how API works, as well as how to implement them.&nbsp;<br><br><span style="color:rgba(42, 66, 84, 0.8);"><strong>Challenge: </strong>I encountered was the programming language, which was Python is relatively new to me, and there are many libraries that I am not familiar with. </span><span style="color:rgba(42, 66, 84, 0.8);"><br><strong>Year:&nbsp;</strong></span><span style="color:rgba(42, 66, 84, 0.8);">May, 2023</span><br><span style="color:rgba(42, 66, 84, 0.8);"><strong>Timeline:&nbsp;</strong></span><span style="color:rgba(42, 66, 84, 0.8);">1&nbsp;months</span><br><span style="color:rgba(42, 66, 84, 0.8);"><strong>Tools:&nbsp;</strong></span><span style="color:rgba(42, 66, 84, 0.8);">Python, Discord library, and APIs.</span></p><video id="kirakou-demo" class="project-demo" style="background-color:#a7a795;" autoplay="" loop="" muted="" src="videos/kirakou.mp4"></video>
+                </section>
+            </section>
+        </section>
+    </main>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/javascript.js"></script>
 </body>

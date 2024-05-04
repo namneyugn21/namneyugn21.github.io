@@ -7,21 +7,20 @@
 #header {
   height: 70vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 #greetings-container {
   display: flex;
   flex-direction: column;
-  width: 54%;
-  padding-top: 10%;
+  width: 100%;
   color: rgba(42,66,84,0.8);
-  align-items: flex-end;
-  padding-right: 5%;
+  align-items: center;
 }
 
 .greetings {
   transition: opacity 0.6s ease-in-out;
+  font-family: 'Abril Fatface';
 }
 
 #introduction-container {
@@ -30,26 +29,29 @@
 
 #introduction {
   font-family: 'Abhaya Libre';
-  width: 450px;
   color: rgba(42,66,84,0.8);
+  padding-top: 10px;
+  padding-right: 60px;
+  margin-bottom: 0px;
+  border-right: 2px dashed rgba(42,66,84,0.8);
 }
 
 #menu-container {
   display: flex;
-  flex-direction: column;
-  width: 46%;
-  padding-top: 14%;
-  padding-left: 10%;
-  padding-bottom: 15%;
-  align-items: flex-start;
+  flex-direction: row;
+  gap: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .menu-options {
   text-align: right;
   display: inline-block;
-  margin-bottom: 35px;
   color: rgba(50,78,101,0.8);
-  font-size: 32px;
+  font-size: 30px;
   font-family: 'Abhaya Libre';
   font-weight: normal;
   position: relative;
@@ -57,6 +59,7 @@
 }
 
 #my-name {
-  border-bottom: 2px solid rgba(42,66,84,0.8);
+  font-size: 90px;
+  padding-top: 60%;
 }
 

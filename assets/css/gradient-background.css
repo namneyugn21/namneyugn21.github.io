@@ -1,27 +1,21 @@
 .dynamic-gradient {
-  background: linear-gradient(123deg, #7c9195, #849c9c, #a1a38f, #9da39c);
-  background-size: 800% 800%;
-  -webkit-animation: AnimationName 8s ease infinite;
-  -moz-animation: AnimationName 8s ease infinite;
-  animation: AnimationName 8s ease infinite;
+  background: linear-gradient(167deg, #a7a795, #bda880, #b6ac8c, #acab8c, #bca073, #939d9c);
+  background-size: 1200% 1200%;
+  -webkit-animation: AnimationName 15s ease infinite;
+  -moz-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
 }
 
 @keyframes AnimationName {
   0% {
-    background-position: 4% 0%;
+    background-position: 43% 0%;
   }
   50% {
-    background-position: 97% 100%;
+    background-position: 58% 100%;
   }
   100% {
-    background-position: 4% 0%;
+    background-position: 43% 0%;
   }
-}
-
-#menu-subcontainer {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
 }
 
 #scroll-button-container {
@@ -73,6 +67,7 @@
   left: 30px;
   top: 20px;
   opacity: 75%;
+  transition: transform 0.1s linear;
 }
 
 #greetings-subcontainer {
@@ -94,5 +89,140 @@
 
 .menu-options:hover::after {
   transform: scaleX(1);
+}
+
+#header-container {
+  height: 100vh;
+}
+
+#greetings {
+  text-align: center;
+  font-size: 70px;
+  color: rgba(42,66,84,0.8);
+}
+
+a {
+  text-decoration: none;
+}
+
+#about-section {
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 100px;
+  display: flex;
+}
+
+#about-subsection {
+  width: 50%;
+}
+
+#profile-picture {
+  width: 320px;
+  height: 320px;
+  border-radius: 30px;
+}
+
+#profile-picture-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: end;
+}
+
+#profile-picture-subcontainer {
+  display: inline-block;
+  border-radius: 40px;
+  border: 10px solid rgba(255,255,255,0.5);
+  width: 340px;
+  height: 340px;
+}
+
+#basic-information {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Abhaya Libre';
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.basic-info {
+  font-family: 'Abhaya Libre';
+  font-weight: 900;
+}
+
+.my-project {
+  font-family: 'Abril Fatface';
+  font-size: 50px;
+  color: rgba(42,66,84,0.8);
+  padding-left: 20px;
+}
+
+.project-container {
+  padding-left: 150px;
+  padding-bottom: 100px;
+  padding-right: 150px;
+}
+
+.project-subcontainer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 2px solid rgba(42,66,84,0.8);
+}
+
+.project-number {
+  font-size: 40px;
+  font-family: 'Abril Fatface';
+  color: rgba(42,66,84,0.8);
+}
+
+.title-container {
+  display: flex;
+}
+
+.project-number {
+  display: flex;
+  height: 100%;
+  width: 75px;
+  align-items: center;
+  justify-content: center;
+  border-right: 5px solid rgba(42,66,84,0.8);
+  border-bottom: 5px solid rgba(42,66,84,0.8);
+  border-top: 2px solid rgba(42,66,84,0.8);
+  border-left: 2px solid rgba(42,66,84,0.8);
+}
+
+.description-paragraph {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  font-size: 19px;
+  width: 50%;
+  margin-bottom: 0;
+  font-family: 'Abhaya Libre';
+  color: rgba(42,66,84,0.8);
+}
+
+.description-container {
+  display: flex;
+}
+
+#realtorest-demo {
+  height: auto;
+  width: 50%;
+  border-radius: 15px;
+}
+
+#kirakou-demo {
+  width: 50%;
+  height: auto;
+  border-radius: 15px;
+}
+
+#kirakou-description {
+  display: flex;
+  /*flex-direction: column;*/
 }
 

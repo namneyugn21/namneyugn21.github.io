@@ -27,39 +27,92 @@
   width: auto;
 }
 
-#introduction {
-  font-family: 'Abhaya Libre';
-  color: rgba(42,66,84,0.8);
-  padding-top: 10px;
-  padding-right: 60px;
-  margin-bottom: 0px;
-  border-right: 2px dashed rgba(42,66,84,0.8);
+@media (min-width: 300px) {
+  #introduction {
+    font-family: 'Abhaya Libre';
+    color: rgba(42,66,84,0.8);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    font-size: 15px;
+  }
 }
 
-#menu-container {
-  display: flex;
-  flex-direction: row;
-  gap: 50px;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+@media (min-width: 1400px) {
+  #introduction {
+    font-family: 'Abhaya Libre';
+    color: rgba(42,66,84,0.8);
+    padding-top: 10px;
+    padding-right: 60px;
+    margin-bottom: 0px;
+    border-right: 2px dashed rgba(42,66,84,0.8);
+    font-size: 19px;
+  }
 }
 
-.menu-options {
-  text-align: right;
-  display: inline-block;
-  color: rgba(50,78,101,0.8);
-  font-size: 30px;
-  font-family: 'Abhaya Libre';
-  font-weight: normal;
-  position: relative;
-  cursor: pointer;
+@media (min-width: 300px) {
+  #menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 50px;
+  }
 }
 
-#my-name {
-  font-size: 90px;
-  padding-top: 60%;
+@media (min-width: 1400px) {
+  #menu-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 430px) {
+  .menu-options {
+    text-align: right;
+    display: inline-block;
+    color: rgba(50,78,101,0.8);
+    font-size: 20px;
+    font-family: 'Abhaya Libre';
+    font-weight: normal;
+    position: relative;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 431px) {
+  .menu-options {
+    text-align: right;
+    display: inline-block;
+    color: rgba(50,78,101,0.8);
+    font-size: 30px;
+    font-family: 'Abhaya Libre';
+    font-weight: normal;
+    position: relative;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 300px) {
+  #my-name {
+    font-size: 40px;
+    padding-top: 150%;
+  }
+}
+
+@media (min-width: 1400px) {
+  #my-name {
+    font-size: 90px;
+    padding-top: 60%;
+  }
 }
 

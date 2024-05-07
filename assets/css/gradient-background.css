@@ -18,28 +18,27 @@
   }
 }
 
+#scroll-button-container {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, transparent, transparent 80%, #ab9472 );
+}
+
 @media (min-width: 300px) {
-  #scroll-button-container {
-    height: 30vh;
-    justify-content: center;
-    background-image: linear-gradient(to bottom, transparent, transparent 80%, #ab9472 );
+  #scroll-button {
     display: none;
+    align-items: center;
+    justify-content: space-around;
   }
 }
 
 @media (min-width: 1400px) {
-  #scroll-button-container {
-    height: 30vh;
+  #scroll-button {
     display: flex;
-    justify-content: center;
-    background-image: linear-gradient(to bottom, transparent, transparent 80%, #ab9472 );
+    align-items: center;
+    justify-content: space-around;
   }
-}
-
-#scroll-button {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
 #scroll {
@@ -75,10 +74,10 @@
 @media (min-width: 300px) {
   #logo-image {
     position: absolute;
-    width: 50px;
-    height: 55px;
+    width: 35px;
+    height: 40px;
     left: 45%;
-    top: 195px;
+    top: 150px;
     opacity: 75%;
     transition: transform 0.1s linear;
   }
@@ -144,9 +143,9 @@ a {
 @media (min-width: 300px) {
   #about-section {
     padding-top: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
-    /*padding-bottom: 100px;*/
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(to bottom, #ab9472, #ab9472 30%, transparent);
@@ -165,6 +164,12 @@ a {
   }
 }
 
+@media (min-width: 300px) {
+  #about-subsection {
+    width: 100%;
+  }
+}
+
 @media (min-width: 1400px) {
   #about-subsection {
     width: 50%;
@@ -172,15 +177,9 @@ a {
 }
 
 @media (min-width: 300px) {
-  #about-subsection {
-    width: 100%;
-  }
-}
-
-@media (min-width: 300px) {
   #profile-picture {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
   }
 }
@@ -193,23 +192,11 @@ a {
   }
 }
 
-@media (min-width: 1400px) {
-  #profile-picture-container {
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    align-items: end;
-  }
-}
-
-@media (min-width: 300px) {
-  #profile-picture-container {
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    align-items: end;
-    padding-bottom: 30px;
-  }
+#profile-picture-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: end;
 }
 
 @media (min-width: 300px) {
@@ -217,8 +204,8 @@ a {
     display: inline-block;
     border-radius: 50%;
     border: 5px solid rgba(255,255,255,0.5);
-    width: 110px;
-    height: 110px;
+    width: 130px;
+    height: 130px;
   }
 }
 
@@ -250,9 +237,9 @@ a {
 @media (min-width: 300px) {
   .my-project {
     font-family: 'Abril Fatface';
-    font-size: 33px;
+    font-size: 27px;
     color: rgba(42,66,84,0.8);
-    padding-left: 20px;
+    padding-left: 15px;
   }
 }
 
@@ -267,8 +254,8 @@ a {
 
 @media (min-width: 300px) {
   .project-container {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
     background-image: linear-gradient(to bottom, transparent, transparent 80%, #ab9472);
   }
 }
@@ -295,38 +282,24 @@ a {
   }
 }
 
-.project-number {
-  font-size: 40px;
-  font-family: 'Abril Fatface';
-  color: rgba(42,66,84,0.8);
-}
-
-@media (min-width: 300px) {
-  .title-container {
-    display: flex;
-    height: 50px;
-  }
-}
-
-@media (min-width: 1400px) {
-  .title-container {
-    display: flex;
-    height: 75px;
-  }
+.title-container {
+  display: flex;
 }
 
 @media (min-width: 300px) {
   .project-number {
     display: flex;
     height: 100%;
-    width: 50px;
+    width: 42px;
     align-items: center;
     justify-content: center;
-    border-right: 5px solid rgba(42,66,84,0.8);
-    border-bottom: 5px solid rgba(42,66,84,0.8);
-    border-top: 2px solid rgba(42,66,84,0.8);
-    border-left: 2px solid rgba(42,66,84,0.8);
-    font-size: 30px;
+    border-right: 3px solid rgba(42,66,84,0.8);
+    border-bottom: 3px solid rgba(42,66,84,0.8);
+    border-top: 1px solid rgba(42,66,84,0.8);
+    border-left: 1px solid rgba(42,66,84,0.8);
+    font-size: 25px;
+    font-family: 'Abril Fatface';
+    color: rgba(42,66,84,0.8);
   }
 }
 
@@ -342,6 +315,8 @@ a {
     border-top: 2px solid rgba(42,66,84,0.8);
     border-left: 2px solid rgba(42,66,84,0.8);
     font-size: 40px;
+    font-family: 'Abril Fatface';
+    color: rgba(42,66,84,0.8);
   }
 }
 
@@ -349,7 +324,7 @@ a {
   .description-paragraph {
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 50px;
+    padding-right: 0px;
     font-size: 15px;
     width: 100%;
     margin-bottom: 0;
@@ -385,38 +360,6 @@ a {
   }
 }
 
-@media (min-width: 300px) {
-  #realtorest-demo {
-    height: auto;
-    width: 100%;
-    border-radius: 0px;
-  }
-}
-
-@media (min-width: 1400px) {
-  #realtorest-demo {
-    height: auto;
-    width: 50%;
-    border-radius: 25px;
-  }
-}
-
-@media (min-width: 300px) {
-  #kirakou-demo {
-    width: 100%;
-    height: auto;
-    border-radius: 0px;
-  }
-}
-
-@media (min-width: 1400px) {
-  #kirakou-demo {
-    width: 50%;
-    height: auto;
-    border-radius: 25px;
-  }
-}
-
 #kirakou-description {
   display: flex;
   /*flex-direction: column;*/
@@ -424,11 +367,10 @@ a {
 
 @media (min-width: 300px) {
   #footer {
-    height: 200px;
+    height: 190px;
     width: 100%;
     background-color: #ab9472;
-    padding-top: 20px;
-    padding-bottom: 25px;
+    padding-top: 40px;
   }
 }
 
@@ -437,7 +379,7 @@ a {
     height: 300px;
     width: 100%;
     background-color: #ab9472;
-    padding-top: 30px;
+    padding-top: 40px;
   }
 }
 
@@ -454,8 +396,8 @@ a {
 @media (min-width: 300px) {
   #footer-logo-container {
     width: 100%;
-    height: 50px;
-    display: flex;
+    height: 35px;
+    display: none;
     justify-content: center;
   }
 }
@@ -474,7 +416,7 @@ a {
     display: flex;
     justify-content: center;
     font-family: 'Abril Fatface';
-    font-size: 30px;
+    font-size: 25px;
     color: rgba(227,225,223,0.7);
     padding: 5px 0px;
   }
@@ -495,7 +437,7 @@ a {
   #icons-container {
     font-size: 20px;
     display: flex;
-    gap: 25px;
+    gap: 20px;
     justify-content: center;
     padding: 10px;
     color: rgba(227,225,223,0.7);

@@ -4,10 +4,20 @@
   font-size: 60px;
 }
 
-#header {
-  height: 70vh;
-  display: flex;
-  flex-direction: column;
+@media (min-width: 300px) {
+  #header {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1400px) {
+  #header {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 #greetings-container {
@@ -32,8 +42,9 @@
     font-family: 'Abhaya Libre';
     color: rgba(42,66,84,0.8);
     padding-top: 10px;
-    padding-bottom: 20px;
-    margin-bottom: 0px;
+    padding-right: 0px;
+    margin-bottom: 30px;
+    border-right: none;
     font-size: 15px;
   }
 }
@@ -58,8 +69,8 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
@@ -76,12 +87,12 @@
   }
 }
 
-@media (max-width: 430px) {
+@media (min-width: 300px) {
   .menu-options {
     text-align: right;
     display: inline-block;
     color: rgba(50,78,101,0.8);
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Abhaya Libre';
     font-weight: normal;
     position: relative;
@@ -89,7 +100,7 @@
   }
 }
 
-@media (min-width: 431px) {
+@media (min-width: 1400px) {
   .menu-options {
     text-align: right;
     display: inline-block;
@@ -105,7 +116,7 @@
 @media (min-width: 300px) {
   #my-name {
     font-size: 40px;
-    padding-top: 260px;
+    padding-top: 200px;
   }
 }
 

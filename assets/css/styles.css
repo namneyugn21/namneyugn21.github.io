@@ -26,6 +26,7 @@
   width: 100%;
   color: rgba(42,66,84,0.8);
   align-items: center;
+  background-image: linear-gradient(to bottom, rgb(132,146,148), rgb(132,146,148) 10%, transparent);
 }
 
 .greetings {

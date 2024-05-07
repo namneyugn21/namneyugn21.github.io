@@ -76,8 +76,9 @@
     position: absolute;
     width: 35px;
     height: 40px;
-    left: 45%;
-    top: 150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 170px;
     opacity: 75%;
     transition: transform 0.1s linear;
   }
@@ -89,6 +90,7 @@
     width: 65px;
     height: 70px;
     left: 30px;
+    transform: none;
     top: 20px;
     opacity: 75%;
     transition: transform 0.1s linear;
@@ -100,16 +102,32 @@
   flex-direction: column;
 }
 
-.menu-options::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 2px;
-  background-color: rgba(50,78,101,0.8);
-  transform: scaleX(0);
-  transition: transform 0.3s ease-in-out;
+@media (min-width: 300px) {
+  .menu-options::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0px;
+    background-color: rgba(50,78,101,0.8);
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+}
+
+@media (min-width: 1400px) {
+  .menu-options::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: rgba(50,78,101,0.8);
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
 }
 
 .menu-options:hover::after {
@@ -358,11 +376,6 @@ a {
     display: flex;
     flex-direction: row;
   }
-}
-
-#kirakou-description {
-  display: flex;
-  /*flex-direction: column;*/
 }
 
 @media (min-width: 300px) {

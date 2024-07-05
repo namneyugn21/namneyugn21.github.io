@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/namneyugn21.github.io/static/css/main.d17400d5.css",
-    "main.js": "/namneyugn21.github.io/static/js/main.e338384a.js",
-    "index.html": "/namneyugn21.github.io/index.html",
-    "main.d17400d5.css.map": "/namneyugn21.github.io/static/css/main.d17400d5.css.map",
-    "main.e338384a.js.map": "/namneyugn21.github.io/static/js/main.e338384a.js.map"
+    "main.css": "/static/css/main.d17400d5.css",
+    "main.js": "/static/js/main.e338384a.js",
+    "index.html": "/index.html",
+    "main.d17400d5.css.map": "/static/css/main.d17400d5.css.map",
+    "main.e338384a.js.map": "/static/js/main.e338384a.js.map"
   },
   "entrypoints": [
     "static/css/main.d17400d5.css",

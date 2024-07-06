@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 
 export const BackgroundBeams = React.memo(
     ({ className }: { className?: string }) => {
-        const [viewBox, setViewBox] = React.useState("0 0 820 820");
+        const initialViewBox = window.innerWidth < 400 ? "80 -450 400 900" : "0 0 820 820";
+        const [viewBox, setViewBox] = React.useState(initialViewBox);
         React.useEffect(() => {
             const updateViewBox = () => {
                 if (window.innerWidth < 400) {
@@ -12,7 +13,6 @@ export const BackgroundBeams = React.memo(
                     setViewBox("0 0 820 820");
                 }
             };
-            updateViewBox();
             window.addEventListener("resize", updateViewBox);
             return () => {
                 window.removeEventListener("resize", updateViewBox);

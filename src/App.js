@@ -31,6 +31,7 @@ function App() {
                 </div>
                 <div className="introduction_menu">
                     <ol class="introduction_menu-list">
+                        <li className="roboto-slab-extra-light"><span className="introduction_menu-item">about</span></li>
                         <li className="roboto-slab-extra-light"><span className="introduction_menu-item">projects</span></li>
                         <li className="roboto-slab-extra-light"><span className="introduction_menu-item">resume</span></li>
                         <li className="roboto-slab-extra-light"><span className="introduction_menu-item">skills</span></li>

@@ -136,11 +136,11 @@
         left: 30px;
         letter-spacing: 0.5px;
         line-height: 1.75;
-        font-size: 15px;
+        font-size: 12px;
     }
     .introduction_menu-list {
-        bottom: 50px;
+        bottom: 100px;
         left: 30px;
-        font-size: 15px;
+        font-size: 12px;
     }
 }

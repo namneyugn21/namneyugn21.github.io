@@ -24,13 +24,14 @@
     width: auto;
     overflow: hidden;
     position: relative;
-    border: rgba(195, 225, 255, 0.9) 10px solid;
+    border-top: rgba(195, 225, 255, 0.9) 10px solid;
+    border-left: rgba(195, 225, 255, 0.9) 10px solid;
+    border-bottom: none;
+    border-right: rgba(195, 225, 255, 0.9) 10px solid;
 }
 .introduction_title {
     font-size: 25px;
-    font-weight: 700;
     color: #fff;
-    margin-top: auto;
     position: absolute;
     top: 70px;
     left: 80px;
@@ -94,4 +95,52 @@
 
 .introduction_menu-item:hover::before {
     width: 100%;
+}
+
+@media (max-width: 650px) {
+    .introduction_container {
+        border-top: rgba(195, 225, 255, 0.9) 5px solid;
+        border-left: rgba(195, 225, 255, 0.9) 5px solid;
+        border-bottom: none;
+        border-right: rgba(195, 225, 255, 0.9) 5px solid;
+   }
+    .introduction_title {
+        font-size: 20px;
+        color: #fff;
+        position: absolute;
+        top: 50px;
+        left: 30px;
+        display: flex;
+        align-items: baseline;
+        gap: 10px;
+    }
+    .introduction_title-job {
+        font-size: 16px;
+        color: hsla(0, 0%, 100%, 0.5);
+    }
+    .introduction_line {
+        width: 325px;
+        color: #fff;
+        position: absolute;
+        top: 100px;
+        left: 30px;
+        display: flex;
+        justify-content: center;
+        border-bottom: #fff 0.2px solid;
+    }
+    .introduction_description {
+        width: 325px;
+        color: hsla(0, 0%, 100%, 0.5);
+        position: absolute;
+        top: 120px;
+        left: 30px;
+        letter-spacing: 0.5px;
+        line-height: 1.75;
+        font-size: 15px;
+    }
+    .introduction_menu-list {
+        bottom: 50px;
+        left: 30px;
+        font-size: 15px;
+    }
 }

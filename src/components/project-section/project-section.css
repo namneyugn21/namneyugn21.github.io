@@ -1,0 +1,44 @@
+.projects {
+    height: 100vh;
+    width: auto;
+    overflow: hidden;
+    position: relative;
+    border-top: none;
+    border-left: rgba(195, 225, 255, 0.9) 10px solid;
+    border-bottom: none;
+    border-right: rgba(195, 225, 255, 0.9) 10px solid;
+}
+
+.projects_container{
+    font-size: 25px;
+    color: #fff;
+    margin-top: 70px;
+    margin-left: 80px;
+    display: flex;
+    align-items:baseline;
+    gap: 10px;
+}
+
+.projects_title-comments {
+    font-size: 19px;
+    color: hsla(0, 0%, 100%, 0.5);
+}
+
+.projects_line {
+    width: 225px;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    border-bottom: #fff 0.5px solid;
+}
+
+.projects_tuple {
+    padding: 50px 80px 100px 80px;
+}
+
+.projects_tuple-index {
+    display: flex;
+    column-gap: 150px;
+}

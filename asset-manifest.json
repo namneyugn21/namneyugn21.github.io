@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.517f8a2b.css",
-    "main.js": "/static/js/main.afadf0bf.js",
+    "main.css": "/static/css/main.ce9d8839.css",
+    "main.js": "/static/js/main.3dd5791c.js",
+    "static/media/Realtorest.png": "/static/media/Realtorest.7faa16e4a30a2c82e956.png",
     "index.html": "/index.html",
-    "main.517f8a2b.css.map": "/static/css/main.517f8a2b.css.map",
-    "main.afadf0bf.js.map": "/static/js/main.afadf0bf.js.map"
+    "main.ce9d8839.css.map": "/static/css/main.ce9d8839.css.map",
+    "main.3dd5791c.js.map": "/static/js/main.3dd5791c.js.map"
   },
   "entrypoints": [
-    "static/css/main.517f8a2b.css",
-    "static/js/main.afadf0bf.js"
+    "static/css/main.ce9d8839.css",
+    "static/js/main.3dd5791c.js"
   ]
 }

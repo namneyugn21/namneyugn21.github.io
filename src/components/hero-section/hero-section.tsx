@@ -26,7 +26,7 @@ const HeroSection = () => {
             <div className="introduction_description">
                 <p className="roboto-slab-light">Xin chào ! (that's "Hello" in Vietnamese)</p>
                 <p className="roboto-slab-light">My name is Nam, and I am a computer science student at Simon Fraser University in Burnaby, British Columbia.</p>
-                <p className="roboto-slab-light">With a concentration in Information Systems and Programming Languages, I am passionate about web development and databases. I am currently seeking opportunities as a front-end developer or web developer.</p>
+                <p className="roboto-slab-light">With a concentration in Information Systems and Programming Languages, I am passionate about web development and human-centered computing. I am currently seeking opportunities as a front-end developer or web developer.</p>
                 <p className="roboto-slab-light">Outside of classroom, I enjoy traveling and taking aesthetic pictures around the city of Vancouver!</p>
             </div>
             <div className="introduction_menu">

@@ -17,10 +17,7 @@
     width: auto;
     overflow: hidden;
     position: relative;
-    border-top: rgba(195, 225, 255, 0.9) 10px solid;
-    border-left: rgba(195, 225, 255, 0.9) 10px solid;
     border-bottom: none;
-    border-right: rgba(195, 225, 255, 0.9) 10px solid;
 }
 .introduction_title {
     font-size: 25px;

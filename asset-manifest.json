@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.75a089d9.css",
-    "main.js": "/static/js/main.1800a289.js",
+    "main.css": "/static/css/main.4bb5ac7f.css",
+    "main.js": "/static/js/main.896a3b45.js",
     "static/media/Realtorest.png": "/static/media/Realtorest.7faa16e4a30a2c82e956.png",
     "static/media/TokimonWorld.png": "/static/media/TokimonWorld.9d25c91242d9ecc60468.png",
     "static/media/Petinder.png": "/static/media/Petinder.b7ed1a8158c4ba45192b.png",
-    "static/media/Portfolio.png": "/static/media/Portfolio.267d7b7025b78444bba2.png",
+    "static/media/Co-op_Resume.png": "/static/media/Co-op_Resume.1b516274e7344593e79e.png",
+    "static/media/Portfolio.png": "/static/media/Portfolio.5c894b7a7805808af573.png",
     "index.html": "/index.html",
-    "main.75a089d9.css.map": "/static/css/main.75a089d9.css.map",
-    "main.1800a289.js.map": "/static/js/main.1800a289.js.map"
+    "main.4bb5ac7f.css.map": "/static/css/main.4bb5ac7f.css.map",
+    "main.896a3b45.js.map": "/static/js/main.896a3b45.js.map"
   },
   "entrypoints": [
-    "static/css/main.75a089d9.css",
-    "static/js/main.1800a289.js"
+    "static/css/main.4bb5ac7f.css",
+    "static/js/main.896a3b45.js"
   ]
 }

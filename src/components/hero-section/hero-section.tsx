@@ -32,9 +32,9 @@ const HeroSection = () => {
             <div className="introduction_menu">
                 <ol className="introduction_menu-list">
                     <li className="roboto-slab-extra-light"><a href="#about" className="introduction_menu-item">about</a></li>
+                    <li className="roboto-slab-extra-light"><a href="#skills" className="introduction_menu-item">skills</a></li>
                     <li className="roboto-slab-extra-light"><a href="#projects" className="introduction_menu-item">projects</a></li>
                     <li className="roboto-slab-extra-light"><a href="#resume" className="introduction_menu-item">resume</a></li>
-                    <li className="roboto-slab-extra-light"><a href="#skills" className="introduction_menu-item">skills</a></li>
                     <li className="roboto-slab-extra-light"><a href="#contact" className="introduction_menu-item">contact</a></li>
                 </ol>
             </div>

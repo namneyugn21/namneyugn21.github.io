@@ -13,7 +13,7 @@
 }
 
 .introduction_container {
-    height: 100vh;
+    height: 98vh;
     width: auto;
     overflow: hidden;
     position: relative;
@@ -47,7 +47,7 @@
     width: 650px;
     color: hsla(0, 0%, 100%, 0.5);
     position: absolute;
-    top: 140px;
+    top: 170px;
     left: 80px;
     letter-spacing: 0.5px;
     line-height: 1.75;
@@ -88,12 +88,6 @@
 }
 
 @media (max-width: 650px) {
-    .introduction_container {
-        border-top: rgba(195, 225, 255, 0.9) 5px solid;
-        border-left: rgba(195, 225, 255, 0.9) 5px solid;
-        border-bottom: none;
-        border-right: rgba(195, 225, 255, 0.9) 5px solid;
-    }
     .introduction_title {
         font-size: 20px;
         color: #fff;

@@ -31,7 +31,7 @@
 }
 
 .projects_tuple {
-    padding: 50px 80px 100px 80px;
+    padding: 50px 80px 50px 80px;
     display: flex;
     flex-wrap: wrap;
     gap: 80px;

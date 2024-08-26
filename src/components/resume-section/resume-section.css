@@ -1,5 +1,5 @@
 .resume__container {
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .resume-title {
@@ -25,7 +25,6 @@
 .resume__container-content {
     padding: 50px 80px 50px 80px;
     display: flex;
-    
 }
 
 .resume__container-content-left {

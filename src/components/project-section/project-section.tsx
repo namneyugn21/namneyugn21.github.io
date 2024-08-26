@@ -15,9 +15,7 @@ const ProjectSection = () => {
                 <p className="projects_title roboto-slab-light">Project</p>
                 <p className="projects_title-comments roboto-slab-light">                    
                     <Typewriter 
-                    words={['// HTML', '// CSS', '// Javascript', '// Spring', '// PostgreSQL'
-                        , '// Docker', '// Python'
-                    ]}
+                    words={['// web applications', '// software development', '// user experience', '// problem solving', '// creativity']}
                     loop={true}
                     cursor
                     cursorStyle='_'

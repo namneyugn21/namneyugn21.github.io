@@ -13,7 +13,7 @@
 }
 
 .introduction_container {
-    height: 98vh;
+    height: 99vh;
     width: auto;
     overflow: hidden;
     position: relative;
@@ -47,7 +47,7 @@
     width: 650px;
     color: hsla(0, 0%, 100%, 0.5);
     position: absolute;
-    top: 170px;
+    top: 150px;
     left: 80px;
     letter-spacing: 0.5px;
     line-height: 1.75;
@@ -58,7 +58,7 @@
     color: #fff;
     margin-top: auto;
     position: absolute;
-    bottom: 100px;
+    bottom: 80px;
     left: 80px;
     display: flex;
     flex-direction: column;
@@ -85,6 +85,22 @@
 
 .introduction_menu-item:hover::before {
     width: 100%;
+}
+
+.introduction_menu-social {
+    display: flex;
+    gap: 25px;
+    font-size: 22px;
+}
+.introduction_menu-social-icon {
+    cursor: pointer;
+    color: #fff;
+}
+.introduction_menu-social-icon:hover {
+    color: #e5e5e5;
+}
+.introduction_menu-social-icon:active {
+    color: #d5d5d5;
 }
 
 @media (max-width: 650px) {

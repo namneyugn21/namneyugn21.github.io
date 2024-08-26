@@ -3,7 +3,7 @@
     position: relative;
     border-top: none;
     border-bottom: none;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .projects_container{
@@ -21,7 +21,7 @@
 }
 
 .projects_line {
-    width: 225px;
+    width: 320px;
     color: #fff;
     margin-top: 20px;
     margin-left: 80px;

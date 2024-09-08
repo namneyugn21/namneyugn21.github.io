@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.d9cab9ab.css",
-    "main.js": "/static/js/main.69e7ffb9.js",
+    "main.js": "/static/js/main.14a97ad7.js",
     "static/media/Realtorest.png": "/static/media/Realtorest.7faa16e4a30a2c82e956.png",
     "static/media/TokimonWorld.png": "/static/media/TokimonWorld.9d25c91242d9ecc60468.png",
     "static/media/Petinder.png": "/static/media/Petinder.b7ed1a8158c4ba45192b.png",
-    "static/media/Co-op_Resume.png": "/static/media/Co-op_Resume.b41d2444bc3997b10fdf.png",
+    "static/media/Co-op_Resume.png": "/static/media/Co-op_Resume.5a9777062755b7ef5303.png",
     "static/media/Portfolio.png": "/static/media/Portfolio.5c894b7a7805808af573.png",
     "index.html": "/index.html",
     "main.d9cab9ab.css.map": "/static/css/main.d9cab9ab.css.map",
-    "main.69e7ffb9.js.map": "/static/js/main.69e7ffb9.js.map"
+    "main.14a97ad7.js.map": "/static/js/main.14a97ad7.js.map"
   },
   "entrypoints": [
     "static/css/main.d9cab9ab.css",
-    "static/js/main.69e7ffb9.js"
+    "static/js/main.14a97ad7.js"
   ]
 }

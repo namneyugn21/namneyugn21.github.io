@@ -1,4 +1,9 @@
 body {
     background-color: black;
     border: rgba(195, 225, 255, 0.9) 10px solid;
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
 }

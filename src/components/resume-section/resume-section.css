@@ -66,3 +66,80 @@
     background-color: hsla(0, 0%, 100%, 0.2);
     cursor: pointer;
 }
+
+@media screen and (max-width: 393px) {
+    .resume__container {
+        padding-top: 30px;
+    }
+    
+    .resume-title {
+        font-size: 20px;
+        color: #fff;
+        margin-left: 30px;
+        display: flex;
+        align-items:baseline;
+        gap: 10px;
+    }
+    
+    .resume-title-comment {
+        font-size: 16px;
+        color: hsla(0, 0%, 100%, 0.5);
+    }
+    
+    .resume__container-title{
+        display: flex;
+        align-items:baseline;
+        gap: 10px;
+    }
+    
+    .resume__container-content {
+        padding: 20px 30px 30px 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .resume__container-content-left {
+        color: hsla(0, 0%, 100%, 0.5);
+        letter-spacing: 0.5px;
+        line-height: 1.5;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .resume__container-content-left-extras {
+        display: none;
+    }
+    
+    .resume__container-content-right {
+        width: 100%;
+        padding-top: 20px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .resume-image {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 10px;
+        object-position: center;
+    }
+    
+    .resume__container-content-button {
+        display: flex;
+        padding: 10px 15px;
+        font-size: 12px;
+        border-radius: 10px;
+        background-color: transparent;
+        border: 2px solid hsla(0, 0%, 100%, 0.5);
+        color: white;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .resume__container-content-button:hover {
+        background-color: hsla(0, 0%, 100%, 0.2);
+        cursor: pointer;
+    }
+}

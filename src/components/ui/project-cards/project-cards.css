@@ -46,3 +46,30 @@
     color: hsla(0, 0%, 100%, 0.5);
     line-height: 1.75;
 }
+
+@media screen and (max-width: 393px) {
+    .card_container {
+        width: 320px;
+        height: 450px;
+    }
+
+    .card_container-image {
+        width: 100%;
+        height: 200px;
+    }
+
+    .card_container-title {
+        font-size: 14px;
+        gap: 5px;
+    }
+
+    .card_container-title-icon {
+        font-size: 11px;
+        color: hsla(0, 0%, 100%, 0.5);
+    }
+
+    .card_container-description {
+        font-size: 12px;
+    }
+    
+}

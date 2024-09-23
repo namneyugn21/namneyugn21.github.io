@@ -37,3 +37,46 @@
     gap: 80px;
     justify-content: center;
 }
+
+@media screen and (max-width: 393px) {
+    .projects {
+        width: auto;
+        position: relative;
+        border-top: none;
+        border-bottom: none;
+        padding-top: 30px;
+    }
+    
+    .projects_container{
+        font-size: 20px;
+        color: #fff;
+        margin-left: 30px;
+        display: flex;
+        align-items:baseline;
+        gap: 10px;
+    }
+    
+    .projects_title-comments {
+        font-size: 16px;
+        color: hsla(0, 0%, 100%, 0.5);
+    }
+    
+    .projects_line {
+        width: 320px;
+        color: #fff;
+        margin-top: 20px;
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+        border-bottom: #fff 0.5px solid;
+    }
+    
+    .projects_tuple {
+        padding: 30px 30px 0px 30px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+}

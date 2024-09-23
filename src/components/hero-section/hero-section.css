@@ -103,7 +103,7 @@
     color: #d5d5d5;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 393px) {
     .introduction_title {
         font-size: 20px;
         color: #fff;
@@ -139,8 +139,9 @@
         font-size: 12px;
     }
     .introduction_menu-list {
-        bottom: 100px;
+        bottom: 120px;
         left: 30px;
         font-size: 12px;
+        gap: 25px;
     }
 }

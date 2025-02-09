@@ -21,11 +21,11 @@ const ResumeSection = () => {
                     </p>
                     <br className="resume__container-content-left-extras"></br>
                     <p className="roboto-slab-light resume__container-content-left-extras">
-                        <strong>Technical Skills:</strong> Highly proficient in Java, Spring Boot, React, and SQL, with a keen focus on developing robust, scalable, and aesthetically pleasing web applications. I ensure that every project not only functions seamlessly but also offers a user-friendly and visually engaging experience.
+                        <strong>Technical Skills:</strong> With high proficiency in Java, Typescript, React, and basic front-end tech stack, I ensure that every project not only functions seamlessly but also offers a user-friendly and visually engaging experience.
                     </p>
                     <br className="resume__container-content-left-extras"></br>
                     <p className="roboto-slab-light resume__container-content-left-extras">
-                        <strong>Project Experience:</strong> Successfully developed and deployed various web applications, including a Pet Adoption Web Application and a Realtor Web Application that demonstrate my ability to blend functionality with design, delivering high-quality software that meets both user needs and business goals.
+                        <strong>Project Experience:</strong> Successfully developed and deployed various web applications, including a Sort Visualizer and a Realtor Web Application that demonstrate my ability to blend functionality with design, delivering high-quality software that meets both user needs and business goals.
                     </p>
                     <br></br>
                     <p className="roboto-slab-light resume__container-content-left-extras">

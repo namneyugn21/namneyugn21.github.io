@@ -4,9 +4,10 @@ import { Typewriter } from "react-simple-typewriter";
 import ProjectCards from "../ui/project-cards/project-cards.tsx";
 
 const Realtorest = require("../../assets/Realtorest.png");
-const Petinder = require("../../assets/Petinder.png");
+const MySort = require("../../assets/MySort.png");
 const Portfolio = require("../../assets/Portfolio.png");
 const TokimonWorld = require("../../assets/TokimonWorld.png");
+const BMPViewer = require("../../assets/BMPViewer.png");
 
 const ProjectSection = () => {
     return (
@@ -28,7 +29,10 @@ const ProjectSection = () => {
             <div className="projects_line"></div>
             <div className="projects_tuple">
                 <div className="projects_tuple-index">
-                    <ProjectCards images={Petinder} title="Petinder" description="Petinder is an innovative web application designed to help animal lovers connect with pets available for adoption at local shelters. Drawing inspiration from the popular dating app Tinder, Petinder offers a user-friendly interface that allows potential pet adopters to discover, explore, and swipe through profiles of adoptable pets." link="https://github.com/namneyugn21/Petinder.git" />
+                    <ProjectCards images={BMPViewer} title="BMP Image Viewer" description="BMP Image Editor is a Python GUI application for viewing and modifying BMP images. It allows users to adjust brightness, scale images with nearest-neighbor interpolation, and toggle RGB channels—all within a simple Tkinter interface." link="https://github.com/namneyugn21" />
+                </div>
+                <div className="projects_tuple-index">
+                    <ProjectCards images={MySort} title="Sort Visualizer" description="Sort Visualizer is an interactive web application designed to visualize and understand sorting algorithms. Featuring real-time animations, customizable array sizes, gradient bars, and sound effects, it makes learning algorithms engaging and fun." link="https://github.com/namneyugn21/SortVisualizer.git" />
                 </div>
                 <div className="projects_tuple-index">
                     <ProjectCards images={Realtorest} title="Realtorest" description="A full-stack web application designed for hosting a personal website for realtors. Exploration, sorting, and direct contact functionalities are available for visiting users, while enabling Admin to manage listings and engage with potential buyers effectively, all within a user-friendly, ad-free environment." link="https://github.com/namneyugn21/Realtorest.git" /> 

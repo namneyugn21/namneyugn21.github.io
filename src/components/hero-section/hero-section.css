@@ -41,7 +41,7 @@
     left: 80px;
     display: flex;
     justify-content: center;
-    border-bottom: #fff 0.5px solid;
+    border-bottom: hsla(0, 0%, 100%, 0.3) 1px solid;
 }
 .introduction_description {
     width: 650px;
@@ -51,6 +51,7 @@
     left: 80px;
     letter-spacing: 0.5px;
     line-height: 1.75;
+    font-size: 16px;
 }
 .introduction_menu-list {
     list-style-type: none;
@@ -64,6 +65,7 @@
     flex-direction: column;
     gap: 30px;
     letter-spacing: 2px;
+    font-size: 16px;
 }
 .introduction_menu-item {
     cursor: pointer;
@@ -151,4 +153,10 @@
         font-size: 12px;
         gap: 25px;
     }
+}
+
+@media (max-width: 1400px) {
+  .introduction_description, .introduction_menu-list {
+    font-size: 14px;
+  }
 }

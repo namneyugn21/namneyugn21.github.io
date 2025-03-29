@@ -27,7 +27,7 @@
     margin-left: 80px;
     display: flex;
     justify-content: center;
-    border-bottom: #fff 0.5px solid;
+    border-bottom: hsla(0, 0%, 100%, 0.3) 1px solid;
 }
 
 .projects_tuple {

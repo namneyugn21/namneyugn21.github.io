@@ -22,7 +22,7 @@
     margin-left: 80px;
     display: flex;
     justify-content: center;
-    border-bottom: #fff 0.5px solid;
+    border-bottom: hsla(0, 0%, 100%, 0.3) 1px solid;
 }
 .skills_tuple-list {
     padding: 50px 80px 50px 80px;
@@ -111,4 +111,19 @@
         color: #fff;
         text-align: center;
     }
+}
+
+#nodejs {
+    width: 90px;
+    height: 90px;
+    border-radius: 25%;
+    padding: 12px;
+    background-color: rgb(240, 240, 240);
+}
+
+#firebase {
+    width: 90px;
+    height: 90px;
+    border-radius: 25%;
+    background-color: rgb(240, 240, 240);
 }

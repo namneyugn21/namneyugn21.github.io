@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.e34b5e07.css",
-    "main.js": "/static/js/main.3a3ca8c3.js",
+    "main.js": "/static/js/main.06ce8b06.js",
     "static/media/MySort.png": "/static/media/MySort.66f7d663c99cf9036151.png",
     "static/media/Realtorest.png": "/static/media/Realtorest.7faa16e4a30a2c82e956.png",
     "static/media/TokimonWorld.png": "/static/media/TokimonWorld.9d25c91242d9ecc60468.png",
+    "static/media/Hotelytics.png": "/static/media/Hotelytics.06d9e51928e431faae58.png",
     "static/media/RoamingApp.png": "/static/media/RoamingApp.1de2f649233e187d9f2a.png",
     "static/media/BMPViewer.png": "/static/media/BMPViewer.d784d66e4904cca2e0b4.png",
-    "static/media/Co-op_Resume.png": "/static/media/Co-op_Resume.03c095c73327dfac970b.png",
+    "static/media/Co-op_Resume.png": "/static/media/Co-op_Resume.c7f9de2ce363b9b62a29.png",
     "static/media/Portfolio.png": "/static/media/Portfolio.5c894b7a7805808af573.png",
     "index.html": "/index.html",
     "main.e34b5e07.css.map": "/static/css/main.e34b5e07.css.map",
-    "main.3a3ca8c3.js.map": "/static/js/main.3a3ca8c3.js.map"
+    "main.06ce8b06.js.map": "/static/js/main.06ce8b06.js.map"
   },
   "entrypoints": [
     "static/css/main.e34b5e07.css",
-    "static/js/main.3a3ca8c3.js"
+    "static/js/main.06ce8b06.js"
   ]
 }

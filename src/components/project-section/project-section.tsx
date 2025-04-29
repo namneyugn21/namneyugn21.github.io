@@ -9,6 +9,7 @@ const Portfolio = require("../../assets/Portfolio.png");
 const TokimonWorld = require("../../assets/TokimonWorld.png");
 const BMPViewer = require("../../assets/BMPViewer.png");
 const RoamingApp = require("../../assets/RoamingApp.png");
+const Hotelytics = require("../../assets/Hotelytics.png");
 
 const ProjectSection = () => {
     return (
@@ -29,6 +30,9 @@ const ProjectSection = () => {
             </div>
             <div className="projects_line"></div>
             <div className="projects_tuple">
+                <div className="projects_tuple-index">
+                    <ProjectCards images={Hotelytics} title="Hotelytics" description="Hotelytics helps visitors find the most suitable hotel in Vancouver based on surrounding amenities and also generates a personalized walking tour from the selected hotel to nearby attractions using real street network data." link="https://github.com/namneyugn21/Hotelytics" />
+                </div>
                 <div className="projects_tuple-index">
                     <ProjectCards images={RoamingApp} title="Roaming App" description="Roaming is a visual storytelling app that encourages users to capture raw, aesthetic moments and create a digital footprint of their experiences. Unlike traditional photo-sharing platforms that emphasize selfies and social engagement, Roaming is designed to document places, landscapes, cityscapes, and nature, allowing users to tell stories through their surroundings rather than themselves." link="https://github.com/namneyugn21/Roaming-App" />
                 </div>

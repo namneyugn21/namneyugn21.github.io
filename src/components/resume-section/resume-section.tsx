@@ -19,18 +19,7 @@ const ResumeSection = () => {
                     <p className="roboto-slab-light">
                         Download my resume to learn more about my expertise and how I can contribute to your team with both technical and creative skills.
                     </p>
-                    <br className="resume__container-content-left-extras"></br>
-                    <p className="roboto-slab-light resume__container-content-left-extras">
-                        <strong>Technical Skills:</strong> With high proficiency in Java, Typescript, React, and basic front-end tech stack, I ensure that every project not only functions seamlessly but also offers a user-friendly and visually engaging experience.
-                    </p>
-                    <br className="resume__container-content-left-extras"></br>
-                    <p className="roboto-slab-light resume__container-content-left-extras">
-                        <strong>Project Experience:</strong> Successfully developed and deployed various web applications, including a Sort Visualizer and a Realtor Web Application that demonstrate my ability to blend functionality with design, delivering high-quality software that meets both user needs and business goals.
-                    </p>
                     <br></br>
-                    <p className="roboto-slab-light resume__container-content-left-extras">
-                        <strong>Soft Skills:</strong> An excellent team player with a collaborative spirit. I quickly adapt to new environments, which enables me to learn and integrate new tools and technologies efficiently. My ability to understand and align with both the technical and aesthetic aspects of projects makes me a versatile and valuable member of any development team.
-                    </p><br className="resume__container-content-left-extras"></br>
                     <button className="resume__container-content-button">
                         <FontAwesomeIcon icon={faDownload} className="resume__container-content-button-icon" />
                         <a 

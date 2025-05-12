@@ -33,25 +33,25 @@ const HeroSection = () => {
                 <p style={{ paddingTop: '10px' }} className="roboto-slab-light">My name is Nam, and I am a computer science student at Simon Fraser University in Burnaby, British Columbia.</p>
                 <p style={{ paddingTop: '10px' }} className="roboto-slab-light">With a concentration in Information Systems and Programming Languages, I am passionate about web development and human-centered computing. I am currently seeking opportunities in software development.</p>
                 <p style={{ paddingTop: '10px' }} className="roboto-slab-light">Outside of classroom, I enjoy traveling and taking aesthetic pictures around the city of Vancouver!</p>
-            </div>
-            <div className="introduction_menu">
-                <ol className="introduction_menu-list">
-                    <li className="roboto-slab-extra-light"><a href="#about" className="introduction_menu-item">about</a></li>
-                    <li className="roboto-slab-extra-light"><a href="#skills" className="introduction_menu-item">skills</a></li>
-                    <li className="roboto-slab-extra-light"><a href="#projects" className="introduction_menu-item">projects</a></li>
-                    <li className="roboto-slab-extra-light"><a href="#resume" className="introduction_menu-item">resume</a></li>
-                    <div className="introduction_menu-social">
-                        <a href='https://github.com/namneyugn21' target='_blank' rel='noreferer'>
-                            <FontAwesomeIcon icon={faGithub} className="introduction_menu-social-icon" />
-                        </a>
-                        <a href="https://www.linkedin.com/in/namneyugn21/" target='_blank' rel='noreferer'>
-                            <FontAwesomeIcon icon={faLinkedin} className="introduction_menu-social-icon" />
-                        </a>
-                        <a href={`mailto:${email}`}>
-                            <FontAwesomeIcon icon={faEnvelope} className="introduction_menu-social-icon" />
-                        </a>
-                    </div>
-                </ol>
+                <div className="introduction_menu">
+                    <ol className="introduction_menu-list">
+                        <li className="roboto-slab-extra-light"><a href="#about" className="introduction_menu-item">about</a></li>
+                        <li className="roboto-slab-extra-light"><a href="#skills" className="introduction_menu-item">skills</a></li>
+                        <li className="roboto-slab-extra-light"><a href="#projects" className="introduction_menu-item">projects</a></li>
+                        <li className="roboto-slab-extra-light"><a href="#resume" className="introduction_menu-item">resume</a></li>
+                        <div className="introduction_menu-social">
+                            <a href='https://github.com/namneyugn21' target='_blank' rel='noreferer'>
+                                <FontAwesomeIcon icon={faGithub} className="introduction_menu-social-icon" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/namneyugn21/" target='_blank' rel='noreferer'>
+                                <FontAwesomeIcon icon={faLinkedin} className="introduction_menu-social-icon" />
+                            </a>
+                            <a href={`mailto:${email}`}>
+                                <FontAwesomeIcon icon={faEnvelope} className="introduction_menu-social-icon" />
+                            </a>
+                        </div>
+                    </ol>
+                </div>
             </div>
             <BackgroundBeams />
         </div>

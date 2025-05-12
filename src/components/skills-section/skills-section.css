@@ -1,129 +1,114 @@
 .skills_container {
-    padding-top: 30px;
+  padding-top: 30px;
 }
+
+/* Title section */
 .skills_title {
-    font-size: 25px;
-    color: #fff;
-    margin-left: 80px;
-    display: flex;
-    align-items:baseline;
-    gap: 10px;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-left: 80px;
+  font-size: clamp(1.25rem, 2.5vw, 25px);
+  color: #fff;
 }
 
 .skills_title-skills {
-    font-size: 19px;
-    color: hsla(0, 0%, 100%, 0.5);
+  font-size: clamp(0.9rem, 2vw, 19px);
+  color: hsla(0, 0%, 100%, 0.5);
 }
 
 .skills_title-line {
-    width: 210px;
-    color: #fff;
-    margin-top: 20px;
-    margin-left: 80px;
-    display: flex;
-    justify-content: center;
-    border-bottom: hsla(0, 0%, 100%, 0.3) 1px solid;
+  width: 210px;
+  margin-top: 20px;
+  margin-left: 80px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.3);
+  color: #fff;
 }
+
+/* Icon lists */
 .skills_tuple-list {
-    padding: 50px 80px 50px 80px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 80px;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px;
+  padding: 50px 80px;
 }
+
 .skills_tuple-list-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    transition: all 0.1s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.15s ease-in-out;
 }
+
 .skills_tuple-list-item:hover {
-    transform: scale(1.15);
-}
-.skills_tuple-list-item svg {
-    width: 90px;
-    height: 90px;
-    border-radius: 25%;
-    padding: 12px;
-    background-color: rgb(240, 240, 240);
-}
-.skills_tuple-list-item-text {
-    font-size: 16px;
-    color: #fff;
-    text-align: center;
+  transform: scale(1.15);
 }
 
-@media (max-width: 393px) {
-    .skills_container {
-        padding-top: 30px;
-    }
-
-    .skills_title {
-        font-size: 20px;
-        color: #fff;
-        margin-left: 30px;
-        display: flex;
-        align-items:baseline;
-        gap: 10px;
-    }
-    .skills_title-skills {
-        font-size: 16px;
-        color: hsla(0, 0%, 100%, 0.5);
-    }
-    
-    .skills_title-line {
-        width: 210px;
-        color: #fff;
-        margin-top: 20px;
-        margin-left: 30px;
-        display: flex;
-        justify-content: center;
-        border-bottom: #fff 0.5px solid;
-    }
-
-    .skills_tuple-list {
-        padding: 30px 20px 0px 20px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 15px;
-        justify-content: center;
-    }
-    .skills_tuple-list-item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        transition: all 0.1s ease-in-out;
-    }
-    .skills_tuple-list-item:hover {
-        transform: none;
-    }
-    .skills_tuple-list-item svg {
-        width: 50px;
-        height: 50px;
-        border-radius: 25%;
-        padding: 12px;
-        background-color: rgb(240, 240, 240);
-    }
-    .skills_tuple-list-item-text {
-        font-size: 11px;
-        color: #fff;
-        text-align: center;
-    }
-}
-
+.skills_tuple-list-item svg,
 #nodejs {
-    width: 90px;
-    height: 90px;
-    border-radius: 25%;
-    padding: 12px;
-    background-color: rgb(240, 240, 240);
+  width: 90px;
+  height: 90px;
+  padding: 12px;
+  border-radius: 25%;
+  background-color: rgb(240, 240, 240);
 }
 
 #firebase {
-    width: 90px;
-    height: 90px;
-    border-radius: 25%;
-    background-color: rgb(240, 240, 240);
+  width: 90px;
+  height: 90px;
+  border-radius: 25%;
+  background-color: #fff;
+}
+
+.skills_tuple-list-item-text {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+/* 🌐 Mobile optimization */
+@media screen and (max-width: 430px) {
+  .skills_title {
+    margin-left: 20px;
+    font-size: 18px;
+  }
+
+  .skills_title-skills {
+    font-size: 15px;
+  }
+
+  .skills_title-line {
+    width: 210px;
+    margin-left: 20px;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.3);
+  }
+
+  .skills_tuple-list {
+    padding: 30px 20px 0;
+    gap: 20px;
+  }
+
+  .skills_tuple-list-item:hover {
+    transform: none;
+  }
+
+  .skills_tuple-list-item svg,
+  #nodejs {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+  }
+
+  #firebase {
+    width: 50px;
+    height: 50px;
+  }
+
+  .skills_tuple-list-item-text {
+    font-size: 11px;
+  }
 }

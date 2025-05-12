@@ -16,21 +16,27 @@ const ResumeSection = () => {
             <div className="projects_line"></div>
             <div className="resume__container-content">
                 <div className="resume__container-content-left">
+                  <div className="resume__container-pfp-wrapper">
+                    <img 
+                      src={require("../../assets/pfp.jpeg")} 
+                      alt="Nam Nguyen" 
+                      className="resume__container-pfp"
+                    />
                     <p className="roboto-slab-light">
-                        Download my resume to learn more about my expertise and how I can contribute to your team with both technical and creative skills.
+                      Download my resume to learn more about my expertise and how I can contribute to your team with both technical and creative skills.
                     </p>
-                    <br></br>
-                    <button className="resume__container-content-button">
-                        <FontAwesomeIcon icon={faDownload} className="resume__container-content-button-icon" />
-                        <a 
-                        href="/resources/Co-op_Resume.pdf" 
-                        target="_blank" 
-                        rel="noreferrer" 
-                        download="Co-op_Resume.pdf"
-                        className="resume__container-content-button-link roboto-slab-light">
-                            Download Resume
-                        </a>
+                  </div>
+                  <a 
+                      href="/resources/Co-op_Resume.pdf" 
+                      target="_blank" 
+                      rel="noreferrer" 
+                      className="resume__container-content-button-link roboto-slab-light">
+                    <button 
+                      className="resume__container-content-button">
+                      <FontAwesomeIcon icon={faDownload} className="resume__container-content-button-icon" />
+                          <p className="roboto-slab-light">Download Resume</p>
                     </button>
+                  </a>
                 </div>
                 <div className="resume__container-content-right">
                     <img src={Resume} alt="resume" className="resume__container-content-right-image resume-image"></img>

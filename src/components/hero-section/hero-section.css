@@ -13,7 +13,7 @@
 }
 
 .introduction_container {
-    height: 99vh;
+    height: 100dvh;
     width: auto;
     overflow: hidden;
     position: relative;
@@ -83,6 +83,7 @@
     height: 1px;
     background-color: #fff;
     transition: width 0.3s ease-out;
+    -webkit-transition: width 0.3s ease-out;
 }
 
 .introduction_menu-item:hover::before {
@@ -105,54 +106,31 @@
     color: #d5d5d5;
 }
 
-@media (max-width: 393px) {
-    .introduction_title {
-        font-size: 20px;
-        color: #fff;
-        position: absolute;
-        top: 40px;
-        left: 30px;
-        display: flex;
-        align-items: baseline;
-        gap: 10px;
-    }
-    .introduction_container {
-        height: 99vh;
-        width: auto;
-        overflow: hidden;
-        position: relative;
-        border-bottom: none;
-    }
-    .introduction_title-job {
-        font-size: 16px;
-        color: hsla(0, 0%, 100%, 0.5);
-    }
-    .introduction_line {
-        width: 325px;
-        color: #fff;
-        position: absolute;
-        top: 90px;
-        left: 30px;
-        display: flex;
-        justify-content: center;
-        border-bottom: #fff 0.2px solid;
-    }
-    .introduction_description {
-        width: 325px;
-        color: hsla(0, 0%, 100%, 0.5);
-        position: absolute;
-        top: 110px;
-        left: 30px;
-        letter-spacing: 0.5px;
-        line-height: 1.75;
-        font-size: 12px;
-    }
-    .introduction_menu-list {
-        bottom: 120px;
-        left: 30px;
-        font-size: 12px;
-        gap: 25px;
-    }
+@media screen and (max-width: 430px) {
+  .introduction_container {
+      height: 100dvh;
+  }
+  .introduction_title {
+      font-size: 18px;
+      left: 20px;
+  }
+  .introduction_title-job {
+      font-size: 15px;
+  }
+  .introduction_line,
+  .introduction_description {
+      width: calc(100% - 40px);
+      left: 20px;
+  }
+  .introduction_menu-list {
+      left: 20px;
+  }
+  .introduction_description p {
+      font-size: 12px;
+  }
+  .introduction_menu-list li {
+      font-size: 12px;
+  }
 }
 
 @media (max-width: 1400px) {

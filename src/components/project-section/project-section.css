@@ -1,82 +1,65 @@
 .projects {
-    width: auto;
-    position: relative;
-    border-top: none;
-    border-bottom: none;
-    padding-top: 30px;
+  width: 100%;
+  position: relative;
+  padding-top: 30px;
+  border-top: none;
+  border-bottom: none;
 }
 
-.projects_container{
-    font-size: 25px;
-    color: #fff;
-    margin-left: 80px;
-    display: flex;
-    align-items:baseline;
-    gap: 10px;
+/* Title Container */
+.projects_container {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-left: 80px;
+  font-size: clamp(1.25rem, 2.5vw, 25px);
+  color: #fff;
 }
 
 .projects_title-comments {
-    font-size: 19px;
-    color: hsla(0, 0%, 100%, 0.5);
+  font-size: clamp(0.9rem, 2vw, 19px);
+  color: hsla(0, 0%, 100%, 0.5);
 }
 
+/* Underline Divider */
 .projects_line {
-    width: 320px;
-    color: #fff;
-    margin-top: 20px;
-    margin-left: 80px;
-    display: flex;
-    justify-content: center;
-    border-bottom: hsla(0, 0%, 100%, 0.3) 1px solid;
+  width: 320px;
+  margin-top: 20px;
+  margin-left: 80px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.3);
 }
 
+/* Project Cards Container */
 .projects_tuple {
-    padding: 50px 80px 50px 80px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 80px;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px;
+  padding: 50px 80px;
 }
 
-@media screen and (max-width: 393px) {
-    .projects {
-        width: auto;
-        position: relative;
-        border-top: none;
-        border-bottom: none;
-        padding-top: 30px;
-    }
-    
-    .projects_container{
-        font-size: 20px;
-        color: #fff;
-        margin-left: 30px;
-        display: flex;
-        align-items:baseline;
-        gap: 10px;
-    }
-    
-    .projects_title-comments {
-        font-size: 16px;
-        color: hsla(0, 0%, 100%, 0.5);
-    }
-    
-    .projects_line {
-        width: 320px;
-        color: #fff;
-        margin-top: 20px;
-        margin-left: 30px;
-        display: flex;
-        justify-content: center;
-        border-bottom: #fff 0.5px solid;
-    }
-    
-    .projects_tuple {
-        padding: 30px 30px 0px 30px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        gap: 20px;
-        justify-content: center;
-    }
+/* Responsive for mobile (iPhone 15 Pro width and similar) */
+@media screen and (max-width: 430px) {
+  .projects_container {
+    margin-left: 20px;
+    font-size: 18px;
+  }
+
+  .projects_title-comments {
+    font-size: 15px;
+  }
+
+  .projects_line {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.3);
+  }
+
+  .projects_tuple {
+    padding: 30px 20px 0;
+    flex-direction: column;
+    gap: 25px;
+  }
 }

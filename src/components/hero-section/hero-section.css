@@ -57,13 +57,10 @@
     list-style-type: none;
     font-weight: 700;
     color: #fff;
-    margin-top: auto;
-    position: absolute;
-    bottom: 80px;
-    left: 80px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
     letter-spacing: 2px;
     font-size: 16px;
 }
@@ -108,14 +105,21 @@
 
 @media screen and (max-width: 430px) {
   .introduction_container {
-      height: 100dvh;
+      height: 100vh;
   }
   .introduction_title {
       font-size: 18px;
       left: 20px;
+      top: 50px;
   }
   .introduction_title-job {
       font-size: 15px;
+  }
+  .introduction_line {
+      top: 90px;
+  }
+  .introduction_description {
+      top: 110px;
   }
   .introduction_line,
   .introduction_description {
@@ -124,9 +128,13 @@
   }
   .introduction_menu-list {
       left: 20px;
+      gap: 18px;
+      bottom: 100px;
+      margin-top: 50px;
   }
   .introduction_description p {
       font-size: 12px;
+      line-height: 1.65;
   }
   .introduction_menu-list li {
       font-size: 12px;

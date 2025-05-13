@@ -14,8 +14,8 @@ const HeroSection = () => {
     return (
         <div className="introduction_container">
             <div className="introduction_title">
-                <p className="introduction_title-name roboto-slab-light">Nam Nguyen</p>
-                <p className="introduction_title-job roboto-slab-light">                    
+                <p className="introduction_title-name exo2-regular">Nam Nguyen</p>
+                <p className="introduction_title-job exo2-light">                    
                     <Typewriter 
                     words={['// web developer', '// programmer', '// designer', '// creative', '// problem solver']}
                     loop={true}
@@ -29,16 +29,16 @@ const HeroSection = () => {
             </div>
             <div className="introduction_line"></div>
             <div className="introduction_description">
-                <p className="roboto-slab-light">Xin chào ! (that's "Hello" in Vietnamese)</p>
-                <p style={{ paddingTop: '10px' }} className="roboto-slab-light">My name is Nam, and I am a computer science student at Simon Fraser University in Burnaby, British Columbia.</p>
-                <p style={{ paddingTop: '10px' }} className="roboto-slab-light">With a concentration in Information Systems and Programming Languages, I am passionate about web development and human-centered computing. I am currently seeking opportunities in software development.</p>
-                <p style={{ paddingTop: '10px' }} className="roboto-slab-light">Outside of classroom, I enjoy traveling and taking aesthetic pictures around the city of Vancouver!</p>
+                <p className="exo2-light">Xin chào ! (that's "Hello" in Vietnamese)</p>
+                <p style={{ paddingTop: '10px' }} className="exo2-light">My name is Nam, and I am a computer science student at Simon Fraser University in Burnaby, British Columbia.</p>
+                <p style={{ paddingTop: '10px' }} className="exo2-light">With a concentration in Information Systems and Programming Languages, I am passionate about web development and human-centered computing.</p>
+                <p style={{ paddingTop: '10px' }} className="exo2-light">Outside of classroom, I enjoy traveling and taking aesthetic pictures around the city of Vancouver!</p>
                 <div className="introduction_menu">
                     <ol className="introduction_menu-list">
-                        <li className="roboto-slab-extra-light"><a href="#about" className="introduction_menu-item">about</a></li>
-                        <li className="roboto-slab-extra-light"><a href="#skills" className="introduction_menu-item">skills</a></li>
-                        <li className="roboto-slab-extra-light"><a href="#projects" className="introduction_menu-item">projects</a></li>
-                        <li className="roboto-slab-extra-light"><a href="#resume" className="introduction_menu-item">resume</a></li>
+                        <li className="exo2-light"><a href="#about" className="introduction_menu-item">about</a></li>
+                        <li className="exo2-light"><a href="#skills" className="introduction_menu-item">skills</a></li>
+                        <li className="exo2-light"><a href="#projects" className="introduction_menu-item">projects</a></li>
+                        <li className="exo2-light"><a href="#resume" className="introduction_menu-item">resume</a></li>
                         <div className="introduction_menu-social">
                             <a href='https://github.com/namneyugn21' target='_blank' rel='noreferer'>
                                 <FontAwesomeIcon icon={faGithub} className="introduction_menu-social-icon" />

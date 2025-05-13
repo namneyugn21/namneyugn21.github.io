@@ -1,0 +1,65 @@
+.skill-tags_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+  padding-bottom: 12px;
+}
+
+.skill-tags_tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.12);
+  color: rgba(240, 248, 255, 0.85);
+  font-size: 13px;
+  font-weight: 400;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: default;
+}
+
+.skill-tags_tag:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (max-width: 430px) {
+  .skill-tags_container {
+    gap: 8px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .skill-tags_tag {
+    padding: 4px 10px;
+    font-size: 12px;
+  }
+}
+
+.lang {
+  background-color: #1B2A41;
+}
+
+.framework {
+  background-color: #1F3344;
+}
+
+.tool {
+  background-color: #263E5B;
+}
+
+.data {
+  background-color: #2C3051;
+}
+
+.design {
+  background-color: #2B3A50;
+}
+
+.other {
+  background-color: #3C3F4A;
+}

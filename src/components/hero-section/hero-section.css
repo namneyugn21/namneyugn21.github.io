@@ -1,17 +1,3 @@
-.roboto-slab-extra-light {
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-}
-
-.roboto-slab-light {
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-}
-
 .introduction_container {
     height: 100dvh;
     width: auto;
@@ -20,7 +6,7 @@
     border-bottom: none;
 }
 .introduction_title {
-    font-size: 25px;
+    font-size: 34px;
     color: #fff;
     position: absolute;
     top: 70px;
@@ -30,14 +16,14 @@
     gap: 10px;
 }
 .introduction_title-job {
-    font-size: 19px;
+    font-size: 20px;
     color: hsla(0, 0%, 100%, 0.5);
 }
 .introduction_line {
     width: 325px;
     color: #fff;
     position: absolute;
-    top: 120px;
+    top: 130px;
     left: 80px;
     display: flex;
     justify-content: center;
@@ -51,7 +37,7 @@
     left: 80px;
     letter-spacing: 0.5px;
     line-height: 1.75;
-    font-size: 16px;
+    font-size: 18px;
 }
 .introduction_menu-list {
     list-style-type: none;
@@ -62,7 +48,7 @@
     flex-direction: column;
     gap: 25px;
     letter-spacing: 2px;
-    font-size: 16px;
+    font-size: 18px;
 }
 .introduction_menu-item {
     cursor: pointer;
@@ -108,15 +94,17 @@
       height: 100vh;
   }
   .introduction_title {
-      font-size: 18px;
       left: 20px;
       top: 50px;
+  }
+  .introduction_title-name {
+      font-size: 25px;
   }
   .introduction_title-job {
       font-size: 15px;
   }
   .introduction_line {
-      top: 90px;
+      top: 80px;
   }
   .introduction_description {
       top: 110px;
@@ -133,16 +121,26 @@
       margin-top: 50px;
   }
   .introduction_description p {
-      font-size: 12px;
+      font-size: 14px;
       line-height: 1.65;
   }
   .introduction_menu-list li {
-      font-size: 12px;
+      font-size: 14px;
   }
 }
 
 @media (max-width: 1400px) {
+  .introduction_description {
+    top: 125px;
+  }
+  .introduction_line {
+    top: 110px;
+  }
   .introduction_description, .introduction_menu-list {
-    font-size: 14px;
+    font-size: 18px;
+  }
+  .introduction_title {
+    font-size: 30px;
+    top: 55px;
   }
 }

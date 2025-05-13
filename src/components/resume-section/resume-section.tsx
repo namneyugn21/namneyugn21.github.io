@@ -10,8 +10,8 @@ const ResumeSection = () => {
     return (
         <div className="resume__container" id="resume">
             <div className="resume__container-title">
-                <p className="resume-title roboto-slab-light">Resume</p>
-                <p className="resume-title-comment roboto-slab-light">// myResume</p>
+                <p className="resume-title exo2-regular">Resume</p>
+                <p className="resume-title-comment exo2-light">// myResume</p>
             </div>
             <div className="projects_line"></div>
             <div className="resume__container-content">
@@ -22,7 +22,10 @@ const ResumeSection = () => {
                       alt="Nam Nguyen" 
                       className="resume__container-pfp"
                     />
-                    <p className="roboto-slab-light">
+                    <p className="exo2-light">
+                      Driven by a passion for development and human-centered computing, I’m currently seeking a co-op opportunity in software or web development.
+                    </p>
+                    <p className="exo2-light">
                       Download my resume to learn more about my expertise and how I can contribute to your team with both technical and creative skills.
                     </p>
                   </div>
@@ -30,11 +33,11 @@ const ResumeSection = () => {
                       href="/resources/Co-op_Resume.pdf" 
                       target="_blank" 
                       rel="noreferrer" 
-                      className="resume__container-content-button-link roboto-slab-light">
+                      className="resume__container-content-button-link exo2-light">
                     <button 
                       className="resume__container-content-button">
                       <FontAwesomeIcon icon={faDownload} className="resume__container-content-button-icon" />
-                          <p className="roboto-slab-light">Download Resume</p>
+                          <p className="exo2-light">Download Resume</p>
                     </button>
                   </a>
                 </div>

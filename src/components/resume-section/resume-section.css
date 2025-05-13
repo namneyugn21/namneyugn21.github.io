@@ -92,6 +92,12 @@
   text-align: center;
 }
 
+.resume__container-pfp-wrapper p {
+  font-size: 18px;
+  color: hsla(0, 0%, 100%, 0.5);
+  margin-top: 10px;
+}
+
 .resume__container-pfp {
   width: 200px;
   height: 200px;
@@ -121,7 +127,7 @@
 
   .resume__container-content-left {
     width: 100%;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.5;
   }
 
@@ -135,17 +141,24 @@
   }
 
   .resume__container-content-button {
-    font-size: 12px;
+    font-size: 14px;
     padding: 10px 15px;
   }
+
   .resume__container-pfp-wrapper {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
+  .resume__container-pfp-wrapper p {
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 0.5);
+    margin-top: 10px;
+  }
+
   .resume__container-pfp {
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
   }
 }

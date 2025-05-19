@@ -127,7 +127,7 @@ const ProjectSection = () => {
                         link="https://github.com/namneyugn21/namneyugn21.github.io.git"
                         skills={[
                             { category: "framework", name: "React.js" },
-                            { category: "design", name: "CSS" }
+                            { category: "design", name: "Tailwind CSS" }
                         ]}
                     />
                 </div>

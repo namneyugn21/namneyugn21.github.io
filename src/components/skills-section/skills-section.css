@@ -33,7 +33,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 80px;
-  padding: 50px 80px;
+  padding: 50px 200px;
 }
 
 .skills_tuple-list-item {
@@ -70,7 +70,7 @@
   text-align: center;
 }
 
-/* 🌐 Mobile optimization */
+/* Mobile optimization */
 @media screen and (max-width: 430px) {
   .skills_title {
     margin-left: 20px;

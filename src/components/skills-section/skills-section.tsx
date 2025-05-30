@@ -103,7 +103,7 @@ const SkillsSection = () => {
                         <p className="exo2-regular skills_tuple-list-item-text">Bootstrap</p>
                     </li>
                     <li className="skills_tuple-list-item" >
-                        <img src="https://s3-alpha.figma.com/hub/file/3152337111/0e0f44e4-8de2-49c9-b8f0-406ece8fd1b6-cover.png" alt="Figma" id="firebase" />
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWql5dCpzQmsOE-6v7IZ37An57khSmxbW5Bw_BQL11KyjeKlbvzit04NbglkN_xX9732U&usqp=CAU" alt="Figma" id="firebase" />
                         <p className="exo2-regular skills_tuple-list-item-text">Figma</p>
                     </li>
                 </ul>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.663c347e.css",
-    "main.js": "/static/js/main.bb7406db.js",
+    "main.css": "/static/css/main.df1b24b3.css",
+    "main.js": "/static/js/main.8e875ce4.js",
     "static/media/MySort.png": "/static/media/MySort.66f7d663c99cf9036151.png",
     "static/media/Realtorest.png": "/static/media/Realtorest.7faa16e4a30a2c82e956.png",
     "static/media/pfp.jpeg": "/static/media/pfp.57e078faa93ceb54dae4.jpeg",
@@ -9,14 +9,15 @@
     "static/media/Hotelytics.png": "/static/media/Hotelytics.06d9e51928e431faae58.png",
     "static/media/RoamingApp.png": "/static/media/RoamingApp.1de2f649233e187d9f2a.png",
     "static/media/BMPViewer.png": "/static/media/BMPViewer.d784d66e4904cca2e0b4.png",
-    "static/media/Co-op_Resume.png": "/static/media/Co-op_Resume.d5593c7f2865927bec1f.png",
+    "static/media/Nam_Nguyen_Resume.png": "/static/media/Nam_Nguyen_Resume.be1c76f37167b558ceb5.png",
     "static/media/Portfolio.png": "/static/media/Portfolio.5c894b7a7805808af573.png",
+    "static/media/NamNeedsTODO.png": "/static/media/NamNeedsTODO.bccce9387f89585f9a7e.png",
     "index.html": "/index.html",
-    "main.663c347e.css.map": "/static/css/main.663c347e.css.map",
-    "main.bb7406db.js.map": "/static/js/main.bb7406db.js.map"
+    "main.df1b24b3.css.map": "/static/css/main.df1b24b3.css.map",
+    "main.8e875ce4.js.map": "/static/js/main.8e875ce4.js.map"
   },
   "entrypoints": [
-    "static/css/main.663c347e.css",
-    "static/js/main.bb7406db.js"
+    "static/css/main.df1b24b3.css",
+    "static/js/main.8e875ce4.js"
   ]
 }

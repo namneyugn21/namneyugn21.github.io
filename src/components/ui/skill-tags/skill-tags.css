@@ -63,3 +63,7 @@
 .other {
   background-color: #3C3F4A;
 }
+
+.db {
+  background-color: #2C3051; /* same as .data for consistency */
+}

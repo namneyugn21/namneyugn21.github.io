@@ -9,7 +9,7 @@
     font-size: 34px;
     color: #fff;
     position: absolute;
-    top: 70px;
+    top: 50px;
     left: 80px;
     display: flex;
     align-items:baseline;
@@ -23,7 +23,7 @@
     width: 325px;
     color: #fff;
     position: absolute;
-    top: 130px;
+    top: 120px;
     left: 80px;
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@
     width: 650px;
     color: hsla(0, 0%, 100%, 0.5);
     position: absolute;
-    top: 150px;
+    top: 140px;
     left: 80px;
     letter-spacing: 0.5px;
     line-height: 1.75;
@@ -138,6 +138,9 @@
   }
   .introduction_description, .introduction_menu-list {
     font-size: 18px;
+  }
+  .introduction_menu-list {
+    margin-top: 50px;
   }
   .introduction_title {
     font-size: 30px;

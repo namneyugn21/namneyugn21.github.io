@@ -10,6 +10,7 @@ const TokimonWorld = require("../../assets/TokimonWorld.png");
 const BMPViewer = require("../../assets/BMPViewer.png");
 const RoamingApp = require("../../assets/RoamingApp.png");
 const Hotelytics = require("../../assets/Hotelytics.png");
+const NamNeedsTODO = require("../../assets/NamNeedsTODO.png");
 
 const ProjectSection = () => {
     return (
@@ -37,6 +38,22 @@ const ProjectSection = () => {
             </div>
             <div className="projects_line"></div>
             <div className="projects_tuple">
+                <div className="projects_tuple-index">
+                    <ProjectCards 
+                        images={NamNeedsTODO}
+                        title="Nam Needs TODO"
+                        description="A full-stack task management app built with the MERN stack, featuring a responsive UI, RESTful APIs, and a modular backend architecture. Dockerized for development and deployment, this project was designed to sharpen my skills in building scalable and maintainable applications."
+                        link="https://github.com/namneyugn21/NamNeedsTODO.git"
+                        skills={[
+                          { category: "framework", name: "React.js" },
+                          { category: "framework", name: "Express.js" },
+                          { category: "tool", name: "Docker" },
+                          { category: "framework", name: "Node.js" },
+                          { category: "db", name: "MongoDB" },
+                          { category: "design", name: "Tailwind CSS" }
+                        ]}
+                    />
+                </div>
 
                 <div className="projects_tuple-index">
                     <ProjectCards 
@@ -72,6 +89,7 @@ const ProjectSection = () => {
                             { category: "tool", name: "MapLibre" },
                             { category: "tool", name: "Gemini" },
                             { category: "framework", name: "Node.js" },
+                            { category: "framework", name: "Express.js" },
                             { category: "tool", name: "Cloudinary" }
                         ]}
                     />
@@ -114,7 +132,7 @@ const ProjectSection = () => {
                             { category: "lang", name: "HTML" },
                             { category: "design", name: "CSS" },
                             { category: "lang", name: "JavaScript" },
-                            { category: "tool", name: "PostgreSQL" }
+                            { category: "db", name: "PostgreSQL" }
                         ]}
                     />
                 </div>

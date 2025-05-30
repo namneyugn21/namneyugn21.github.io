@@ -4,7 +4,7 @@ import "../resume-section/resume-section.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 
-const Resume = require("../../assets/Co-op_Resume.png");
+const Resume = require("../../assets/Nam_Nguyen_Resume.png");
 
 const ResumeSection = () => {
     return (
@@ -30,7 +30,7 @@ const ResumeSection = () => {
                     </p>
                   </div>
                   <a 
-                      href="/resources/Co-op_Resume.pdf" 
+                      href="/resources/Nam_Nguyen_Resume.pdf" 
                       target="_blank" 
                       rel="noreferrer" 
                       className="resume__container-content-button-link exo2-light">

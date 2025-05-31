@@ -56,7 +56,7 @@ export const FloatingNav = ({
           duration: 0.2,
         }}
         className={cn(
-          "hidden sm:flex max-w-fit fixed top-10 inset-x-0 mx-auto border-[0.5px] border-[rgba(255,255,255,0.5)] dark:border-white/[0.5] rounded-full dark:bg-[rgb(25,69,79)] bg-black shadow-[0_2px_25px_rgba(195,225,255,0.15)] z-[5000] px-6 py-2.5 items-center justify-center space-x-8",
+          "hidden sm:flex max-w-fit fixed top-10 inset-x-0 mx-auto border-[0.5px] border-[rgba(255,255,255,0.5)] dark:border-white/[0.5] rounded-full dark:bg-[rgb(25,69,79)] bg-black shadow-[0_2px_25px_rgba(195,225,255,0.15)] z-[5000] px-8 py-4 items-center justify-center space-x-10",
           className
         )}
       >
@@ -65,10 +65,12 @@ export const FloatingNav = ({
             key={`link=${idx}`}
             href={navItem.link}
             className={cn(
-              "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-300 dark:hover:text-neutral-300 hover:text-neutral-500"
+              "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-300 scale-100 hover:scale-[1.15] transition-transform duration-200 ease-in-out"
             )}
           >
-            <span className="hidden sm:block exo2-regular text-[17px]">{navItem.name}</span>
+            <span className="hidden sm:block exo2-regular text-[17px]">
+              {navItem.name}
+            </span>
           </a>
         ))}
       </motion.div>

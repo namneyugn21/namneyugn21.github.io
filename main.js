@@ -1,5 +1,3 @@
-lucide.createIcons();
-
 // Auto-update copyright year
 document.getElementById('current-year').textContent = new Date().getFullYear();
 
@@ -42,13 +40,12 @@ const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('animate-visible');
-      // Optional: Stop observing after animation triggers once
       observer.unobserve(entry.target);
     }
   });
 }, observerOptions);
 
-// Observe all elements with animation classes
+// Observe elements with animation classes
 const animatedElements = document.querySelectorAll(
   '.animate-fadeInUp, .animate-fadeIn, .animate-slideInLeft, .animate-slideInRight, .animate-scaleIn'
 );

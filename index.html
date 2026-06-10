@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>nam's portfolio</title>
-  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">  
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -26,6 +26,8 @@
         <div class="hidden md:flex space-x-8 font-medium text-sm" style="color: #3B4652;">
           <a href="#about" class="transition" style="color: #3B4652;" onmouseover="this.style.color='#2B79C2'"
             onmouseout="this.style.color='#3B4652'">About</a>
+          <a href="#experience" class="transition" style="color: #3B4652;" onmouseover="this.style.color='#2B79C2'"
+            onmouseout="this.style.color='#3B4652'">Experience</a>
           <a href="#skills" class="transition" style="color: #3B4652;" onmouseover="this.style.color='#2B79C2'"
             onmouseout="this.style.color='#3B4652'">Skills</a>
           <a href="#projects" class="transition" style="color: #3B4652;" onmouseover="this.style.color='#2B79C2'"
@@ -101,11 +103,12 @@
           onmouseout="this.style.backgroundColor='#3B4652'">My
           work</a>
         <a href="https://github.com/namneyugn21" target="_blank"
-          class="bg-white/80 px-8 py-4 rounded-xl font-semibold transition flex items-center gap-2 backdrop-blur-md"
+          class="bg-white/80 px-8 py-4 rounded-xl font-semibold transition flex items-center justify-center gap-2 backdrop-blur-md"
           style="border: 1px solid #3B4652; color: #3B4652;"
           onmouseover="this.style.backgroundColor='rgba(43, 121, 194, 0.1)'"
           onmouseout="this.style.backgroundColor='rgba(255, 255, 255, 0.8)'">
-          <i data-lucide="github" class="w-5 h-5"></i> GitHub
+          <img src="assets/github.svg" alt="GitHub" class="w-6 h-6">
+          GitHub
         </a>
       </div>
     </div>
@@ -116,9 +119,7 @@
       <div class="animate-slideInLeft">
         <h2 class="text-2xl md:text-3xl font-bold mb-6" style="color: #3B4652;">About Me</h2>
         <p class="text-sm md:text-base mb-4 leading-relaxed" style="color: #3B4652;">
-          Based in Vancouver, Canada, I am currently finishing my degree at SFU. I specialize in web development, with
-          experience in both front-end and back-end technologies. My academic journey has equipped me with a solid
-          foundation in computer science principles, and I am eager to apply this knowledge in real-world scenarios.
+          Currently, I am finishing my degree at SFU. While my academic journey has equipped me with a solid foundation in computer science principles, I am particularly passionate about software development and building impactful applications. I look forward to broadening my skills through collaborations to solve complex problems in a real-world software engineering role.
         </p>
       </div>
       <div class="bg-slate-100 h-64 rounded-2xl overflow-hidden animate-slideInRight">
@@ -127,7 +128,66 @@
     </div>
   </section>
 
-  <section id="skills" class="py-16 px-6">
+  <section id="experience" class="py-12 bg-slate-50 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold mb-12 text-[#3B4652] animate-fadeInUp">Experience</h2>
+      
+      <div class="relative border-l-2 border-slate-200 ml-4 md:ml-6 my-4 animate-fadeInUp delay-200">
+        
+        <div class="mb-12 ml-6 relative group">
+          <div class="absolute w-4 h-4 bg-[#2B79C2] rounded-full -left-[33px] top-1.5 border-4 border-slate-50 group-hover:scale-125 transition-transform"></div>
+          <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm group-hover:shadow-md transition-shadow duration-300">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-3">
+              <div>
+                <h3 class="text-xl font-bold text-[#3B4652]">Web Developer Co-op</h3>
+                <p class="text-md font-semibold text-slate-500 pt-1">iData Research Inc.</p>
+              </div>
+              <span class="inline-block px-3 py-1 bg-slate-100 text-slate-600 text-xs font-bold rounded-full w-fit">
+                Jan 2026 – Present
+              </span>
+            </div>
+            <ul class="list-disc pl-5 text-sm text-slate-600 leading-relaxed space-y-2">
+              <li>
+                Built an internal data platform with Next.js, TypeScript, and SQL to enable 30+ non-technical staff to self-serve database queries and cut data request turnaround by over 50%.
+              </li>
+              <li>
+                Built and shipped production React.js and TypeScript components including lead-capture modals and UX improvements on customer-facing websites to contribute to a 15% increase in monthly lead intake since January 2026.
+              </li>
+              <li>
+                Engineered a lead automation pipeline integrating Smartlead, Zoho Flow, and Zoho CRM to auto-generate BDR call tasks on lead import, processing 5,000+ leads/month and eliminating manual distribution entirely.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="ml-6 relative group">
+          <div class="absolute w-4 h-4 bg-slate-400 rounded-full -left-[33px] top-1.5 border-4 border-slate-50 group-hover:scale-125 transition-transform"></div>
+          <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm group-hover:shadow-md transition-shadow duration-300">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-3">
+              <div>
+                <h3 class="text-xl font-bold text-[#3B4652]">B.Sc. in Computer Science</h3>
+                <p class="text-md font-semibold text-slate-500 pt-1">Simon Fraser University</p>
+              </div>
+              <span class="inline-block px-3 py-1 bg-slate-100 text-slate-600 text-xs font-bold rounded-full w-fit">
+                Jan 2023 – Present
+              </span>
+            </div>
+            <ul class="list-disc pl-5 text-sm text-slate-600 leading-relaxed space-y-2">
+              <li>
+                Dean’s List: Fall 2024 and Spring 2025
+              </li>
+              <li>
+                SFU Accessible Learning Notetaker: Spring 2025, Fall 2025, and Summer 2026
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="py-12 bg-white px-6">
     <div class="max-w-5xl mx-auto">
       <h2 class="text-2xl md:text-3xl font-bold mb-16 text-left animate-fadeInUp" style="color: #3B4652;">Technical
         Stack
@@ -155,14 +215,14 @@
           <img src="https://cdn.simpleicons.org/postgresql/4169E1" class="skill-icon" alt="SQL">
           <span class="skill-label">PostgreSQL</span>
         </div>
-        <div class="skill-item">
-          <img src="https://cdn.simpleicons.org/kotlin/7F52FF" class="skill-icon" alt="Kotlin">
-          <span class="skill-label">Kotlin</span>
-        </div>
 
         <div class="skill-item">
           <img src="https://cdn.simpleicons.org/react/61DAFB" class="skill-icon" alt="React">
           <span class="skill-label">React</span>
+        </div>
+        <div class="skill-item">
+          <img src="https://cdn.simpleicons.org/nextdotjs/000000" class="skill-icon" alt="Next.js">
+          <span class="skill-label">Next.js</span>
         </div>
         <div class="skill-item">
           <img src="https://cdn.simpleicons.org/nodedotjs/339933" class="skill-icon" alt="Node.js">
@@ -208,7 +268,7 @@
   </section>
 
 
-  <section id="projects" class="py-12 bg-white px-6">
+  <section id="projects" class="py-12 bg-slate px-6">
     <div class="max-w-5xl mx-auto">
       <h2 class="text-2xl md:text-3xl font-bold mb-12 animate-fadeInUp" style="color: #3B4652;">Featured Projects</h2>
 
@@ -224,7 +284,7 @@
               <h3 class="text-lg md:text-xl font-bold" style="color: #3B4652;">SeismoAI</h3>
               <a href="https://github.com/namneyugn21/SeismoAI.git"
                 class="font-semibold flex items-center gap-1 hover:underline" target="_blank" style="color: #2B79C2;">
-                <i data-lucide="square-arrow-out-up-right" class="w-4 h-4 text-gray-600"></i>
+                <img src="assets/github.svg" alt="Link" class="w-5 h-5">
               </a>
             </div>
             <p class="text-xs md:text-sm mb-4 leading-loose" style="color: #3B4652;">SeismoAI is a predictive modeling
@@ -264,7 +324,7 @@
               <h3 class="text-lg md:text-xl font-bold" style="color: #3B4652;">Hotelytics</h3>
               <a href="https://github.com/namneyugn21/Hotelytics.git"
                 class="font-semibold flex items-center gap-1 hover:underline" target="_blank" style="color: #2B79C2;">
-                <i data-lucide="square-arrow-out-up-right" class="w-4 h-4"></i>
+                <img src="assets/github.svg" alt="Link" class="w-5 h-5">
               </a>
             </div>
             <p class="text-xs md:text-sm mb-4 leading-loose" style="color: #3B4652;">
@@ -307,7 +367,7 @@
               <h3 class="text-lg md:text-xl font-bold" style="color: #3B4652;">Roaming</h3>
               <a href="https://github.com/namneyugn21/Roaming.git"
                 class="font-semibold flex items-center gap-1 hover:underline" target="_blank" style="color: #2B79C2;">
-                <i data-lucide="square-arrow-out-up-right" class="w-4 h-4"></i>
+                <img src="assets/github.svg" alt="Link" class="w-5 h-5">
               </a>
             </div>
             <p class="text-xs md:text-sm text-slate-600 mb-4 leading-loose">
@@ -346,7 +406,7 @@
               <h3 class="text-lg md:text-xl font-bold" style="color: #3B4652;">BMP Image Editor</h3>
               <a href="https://github.com/namneyugn21/BmpImageViewer.git"
                 class="font-semibold flex items-center gap-1 hover:underline" target="_blank" style="color: #2B79C2;">
-                <i data-lucide="square-arrow-out-up-right" class="w-4 h-4"></i>
+                <img src="assets/github.svg" alt="Link" class="w-5 h-5">
               </a>
             </div>
             <p class="text-xs md:text-sm mb-4 leading-loose" style="color: #3B4652;">
@@ -374,7 +434,7 @@
               <h3 class="text-lg md:text-xl font-bold" style="color: #3B4652;">Sort Visualizer</h3>
               <a href="https://github.com/namneyugn21/SortVisualizer.git"
                 class="font-semibold flex items-center gap-1 hover:underline" target="_blank" style="color: #2B79C2;">
-                <i data-lucide="square-arrow-out-up-right" class="w-4 h-4"></i>
+                <img src="assets/github.svg" alt="Link" class="w-5 h-5">
               </a>
             </div>
             <p class="text-xs md:text-sm mb-4 leading-loose" style="color: #3B4652;">
@@ -404,7 +464,7 @@
               <h3 class="text-lg md:text-xl font-bold" style="color: #3B4652;">Realtorest</h3>
               <a href="https://github.com/namneyugn21/Realtorest.git"
                 class="font-semibold flex items-center gap-1 hover:underline" target="_blank" style="color: #2B79C2;">
-                <i data-lucide="square-arrow-out-up-right" class="w-4 h-4"></i>
+                <img src="assets/github.svg" alt="Link" class="w-5 h-5">
               </a>
             </div>
             <p class="text-xs md:text-sm mb-4 leading-loose" style="color: #3B4652;">
@@ -435,7 +495,7 @@
               <h3 class="text-lg md:text-xl font-bold" style="color: #3B4652;">Tokimon World</h3>
               <a href="https://github.com/namneyugn21/TokimonWorld.git"
                 class="font-semibold flex items-center gap-1 hover:underline" target="_blank" style="color: #2B79C2;">
-                <i data-lucide="square-arrow-out-up-right" class="w-4 h-4"></i>
+                <img src="assets/github.svg" alt="Link" class="w-5 h-5">
               </a>
             </div>
             <p class="text-xs md:text-sm mb-4 leading-loose" style="color: #3B4652;">
@@ -462,24 +522,24 @@
     </div>
   </section>
 
-  <footer id="contact" class="py-16 px-6">
+  <footer id="contact" class="py-16 bg-white  px-6">
     <div class="max-w-5xl mx-auto text-center">
       <h2 class="text-xl md:text-2xl font-bold mb-8" style="color: #3B4652;">Get in touch with me :)</h2>
       <div class="flex justify-center gap-6">
         <a href="mailto:nam.vh.nguyen02@gmail.com" class="p-3 bg-white rounded-full shadow-sm transition border border-slate-200"
           onmouseover="this.style.color='#2B79C2'"
           onmouseout="this.style.color='#3B4652'">
-          <i data-lucide="mail"></i>
+          <img src="assets/mail.svg" alt="Mail" class="w-6 h-6">
         </a>
         <a href="https://www.linkedin.com/in/namneyugn21/" class="p-3 bg-white rounded-full shadow-sm transition border border-slate-200"
           onmouseover="this.style.color='#2B79C2'"
           onmouseout="this.style.color='#3B4652'">
-          <i data-lucide="linkedin"></i>
+          <img src="assets/linkedin.svg" alt="LinkedIn" class="w-6 h-6">
         </a>
         <a href="https://github.com/namneyugn21" class="p-3 bg-white rounded-full shadow-sm transition border border-slate-200"
           onmouseover="this.style.color='#2B79C2'"
           onmouseout="this.style.color='#3B4652'">
-          <i data-lucide="github"></i>
+          <img src="assets/github.svg" alt="GitHub" class="w-6 h-6">
         </a>
       </div>
       <p class="mt-12 text-sm" style="color: #3B4652;">© <span id="current-year"></span> Nam. All rights reserved.</p>

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//tmp/**)",
+      "Bash(curl -sL \"https://cdn.iconscout.com/icon/free/png-256/free-java-logo-icon-svg-download-png-2945017.png?f=webp\" -o java.png)",
+      "Bash(curl -sL \"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/960px-Visual_Studio_Code_1.35_icon.svg.png\" -o vscode.png)",
+      "Bash(python3 -c ' *)",
+      "Bash(pip install *)",
+      "Bash(npx --yes playwright --version)"
+    ]
+  }
+}

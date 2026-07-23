@@ -143,7 +143,7 @@ a {
 
 .body-text {
   color: var(--text-muted);
-  line-height: 1.75;
+  line-height: 2;
 }
 
 /* ==========================================================================
@@ -602,7 +602,7 @@ a {
   font-weight: 600;
   font-size: clamp(1.25rem, 2.6vw, 1.75rem);
   display: flex;
-  align-items: center;
+  align-items: end;
   gap: 0.6rem;
 }
 
@@ -627,8 +627,8 @@ a {
 }
 
 .project-thumb {
-  width: 7rem;
-  height: 5rem;
+  width: 9.5rem;
+  height: 6.75rem;
   border-radius: 0.6rem;
   overflow: hidden;
   flex-shrink: 0;

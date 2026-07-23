@@ -85,7 +85,7 @@ function renderProjects() {
 
   list.innerHTML = PROJECTS.map((project, index) => `
     <a href="${project.url}" target="_blank" rel="noopener" class="project-row">
-      <div class="flex items-start gap-6">
+      <div class="flex items-baseline gap-6">
         <span class="project-num">${String(index + 1).padStart(2, '0')}</span>
         <div>
           <h3 class="project-title">
